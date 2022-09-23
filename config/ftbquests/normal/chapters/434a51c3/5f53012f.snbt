@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: 3.0d,
+	dependencies: [
+		"0118f78e"
+	],
+	tasks: [{
+		uid: "47824442",
+		type: "item",
+		items: [{
+			item: "embers:archaic_circuit"
+		}]
+	}],
+	rewards: [{
+		uid: "d11ed79e",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 4
+	}]
+}

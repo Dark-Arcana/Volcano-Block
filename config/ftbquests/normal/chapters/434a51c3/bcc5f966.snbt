@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 6.0d,
+	dependencies: [
+		"94311fe5"
+	],
+	tasks: [{
+		uid: "a175cf38",
+		type: "item",
+		items: [{
+			item: "calculator:stoneseparator"
+		}]
+	}],
+	rewards: [{
+		uid: "a8a54abd",
+		type: "item",
+		item: "minecraft:lapis_block"
+	}]
+}

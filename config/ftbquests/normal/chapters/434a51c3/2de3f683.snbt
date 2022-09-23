@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"88e041b8"
+	],
+	tasks: [{
+		uid: "50ce2099",
+		type: "item",
+		items: [{
+			item: "calculator:atomiccalculator"
+		}]
+	}],
+	rewards: [{
+		uid: "85137099",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

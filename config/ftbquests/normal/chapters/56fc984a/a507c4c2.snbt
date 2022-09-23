@@ -1,0 +1,36 @@
+{
+	x: -13.0d,
+	y: -4.0d,
+	text: [
+		"Straw golems are friendly little dudes who will help you harvest your crops. Unfortunately, these little buggers can get into a lot of trouble. Try fencing them in to keep them on task",
+		"",
+		"Straw Golems can also be created in-world by stacking a pumpkin on top of a hay block."
+	],
+	dependencies: [
+		"27cc0dcd"
+	],
+	tasks: [{
+		uid: "627fb691",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "strawgolem:strawgolem"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7e9bc856",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "strawgolem:strawgolem"
+				}
+			}
+		}
+	}]
+}

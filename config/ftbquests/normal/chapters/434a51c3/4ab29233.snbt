@@ -1,0 +1,22 @@
+{
+	x: -9.0d,
+	y: 0.0d,
+	text: [
+		"You may want to make a spare Obsidian Skull as it gives you full fire protection while it's in your inventory"
+	],
+	dependencies: [
+		"4992da31"
+	],
+	tasks: [{
+		uid: "2bcc25a4",
+		type: "item",
+		items: [{
+			item: "forbidden_arcanus:obsidian_skull"
+		}]
+	}],
+	rewards: [{
+		uid: "2940de75",
+		type: "choice",
+		table: 0
+	}]
+}

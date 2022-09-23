@@ -1,0 +1,40 @@
+{
+	icon: {
+		id: "calculator:calculator",
+		tag: {}
+	},
+	x: -4.0d,
+	y: 6.0d,
+	text: [
+		"Use an ember receptor on the power cube and it will accept power",
+		"",
+		"To learn more about Calculator, read the mod wiki found at https://github.com/SonarSonic/Calculator/wiki"
+	],
+	dependencies: [
+		"02e3b3db",
+		"5f53012f",
+		"cd237a8d"
+	],
+	tasks: [{
+		uid: "54278b1f",
+		type: "item",
+		items: [{
+			id: "calculator:calculator",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77953e9e",
+		type: "item",
+		items: [{
+			item: "calculator:powercube"
+		}]
+	}],
+	rewards: [{
+		uid: "1af295b4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

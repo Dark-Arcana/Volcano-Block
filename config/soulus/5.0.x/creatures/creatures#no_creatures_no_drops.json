@@ -1,0 +1,132 @@
+{
+	"*": {
+		"*": {
+			"minecraft:skeleton": {
+				"spawn_chance": 0.0,
+				"drops": {
+					"spawned": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": [
+							"*"
+						]
+					},
+					"all": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": [
+							"minecraft:bone"
+						]
+					}
+				}
+			},
+			"minecraft:stray": {
+				"spawn_chance": 0.0,
+				"drops": {
+					"spawned": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": [
+							"*"
+						]
+					},
+					"all": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": [
+							"minecraft:bone"
+						]
+					}
+				}
+			},
+			"minecraft:wither_skeleton": {
+				"spawn_chance": 0.0,
+				"drops": {
+					"spawned": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": [
+							"*"
+						]
+					},
+					"all": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": [
+							"minecraft:bone"
+						]
+					}
+				}
+			},
+			"minecraft:*": {
+				"spawn_chance": 0.0,
+				"drops": {
+					"summoned_malice": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": [
+							"*"
+						]
+					},
+					"summoned": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": []
+					}
+				}
+			},
+			"minecraft:wither": {
+				"spawn_chance": 1.0,
+				"drops": {
+					"all": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": []
+					}
+				}
+			},
+			"minecraft:ender_dragon": {
+				"spawn_chance": 1.0,
+				"drops": {
+					"all": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": []
+					}
+				}
+			},
+			"atum:*": {
+				"spawn_chance": 1.0,
+				"drops": {
+					"summoned": {
+						"has_xp": true,
+						"whitelisted_drops": [
+							"*"
+						],
+						"blacklisted_drops": []
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"Become the Energion Master"
+	],
+	tasks: [{
+		uid: "8d8e5d71",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_dust"
+		}],
+		count: 20000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c62c18c7",
+		type: "command",
+		title: "Energion Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 175,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "prodigytech:energion_dust",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "Energion Master",
+				TrophyColorRed: 100,
+				TrophyEarnedAt: 1560113986L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"prodigytech:energion_dust\",Count:1b,Damage:0s},  TrophyName:\"Energion Master\",  TrophyColorRed:100,  TrophyColorGreen:175,  TrophyColorBlue:255,  TrophyVariant:\"classic\"}"
+	}]
+}

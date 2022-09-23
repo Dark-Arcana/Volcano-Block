@@ -1,0 +1,23 @@
+{
+	x: -8.0d,
+	y: 2.0d,
+	text: [
+		"Ember crystals are used to fuel our Embers machines"
+	],
+	dependencies: [
+		"1f282842"
+	],
+	tasks: [{
+		uid: "1ba5faaa",
+		type: "item",
+		items: [{
+			item: "embers:crystal_ember"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8a999fbf",
+		type: "item",
+		item: "evilcraft:condensed_blood"
+	}]
+}

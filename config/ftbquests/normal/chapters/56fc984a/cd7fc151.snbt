@@ -1,0 +1,22 @@
+{
+	title: "Cobblestone of Christmas Past",
+	x: -14.0d,
+	y: -6.0d,
+	description: "When provided with a redstone signal, the hourglass will slowly convert surrounding cobblestone into ancient cobblestone",
+	dependencies: [
+		"bff5e02f"
+	],
+	tasks: [{
+		uid: "a3bce2e2",
+		type: "item",
+		items: [{
+			item: "uniquecrops:oldcobble"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "0cb7d5a3",
+		type: "item",
+		item: "hwell:burst_seed_cobblestone"
+	}]
+}

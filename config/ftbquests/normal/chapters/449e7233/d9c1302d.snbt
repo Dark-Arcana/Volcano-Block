@@ -1,0 +1,24 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	text: [
+		"Cast your golden rod out into the lava and occasionally you will get magma cream"
+	],
+	dependencies: [
+		"3fdea58c"
+	],
+	tasks: [{
+		uid: "427fc45e",
+		type: "item",
+		items: [{
+			item: "minecraft:magma_cream"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "05b92172",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	}]
+}

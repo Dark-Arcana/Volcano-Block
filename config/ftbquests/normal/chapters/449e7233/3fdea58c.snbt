@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	text: [
+		"A fishing rod, but for lava"
+	],
+	dependencies: [
+		"0c3743ae"
+	],
+	tasks: [{
+		uid: "0d9f8e52",
+		type: "item",
+		items: [{
+			item: "combustfish:golden_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f4758b4",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

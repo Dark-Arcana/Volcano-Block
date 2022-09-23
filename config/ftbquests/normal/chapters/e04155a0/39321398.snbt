@@ -1,0 +1,38 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"Become the Potato Master"
+	],
+	tasks: [{
+		uid: "5e300ca4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:friend_memories"
+		}],
+		count: 20000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6996e74a",
+		type: "command",
+		title: "Potato Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 100,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "botania:tinypotato",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 50,
+				TrophyName: "Potato Master",
+				TrophyColorRed: 200,
+				TrophyEarnedAt: 1560114077L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"botania:tinypotato\",Count:1b,Damage:0s},  TrophyName:\"Potato Master\",  TrophyColorRed:200,  TrophyColorGreen:100,  TrophyColorBlue:50,  TrophyVariant:\"classic\"}"
+	}]
+}

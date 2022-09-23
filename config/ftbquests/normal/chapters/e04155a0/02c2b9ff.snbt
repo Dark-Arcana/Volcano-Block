@@ -1,0 +1,35 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"Become the Lava Master"
+	],
+	tasks: [{
+		uid: "ce9500ce",
+		type: "fluid",
+		fluid: "lava",
+		amount: 100000000
+	}],
+	rewards: [{
+		uid: "85a0b712",
+		type: "command",
+		title: "Lava Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 40,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "uniquecrops:lavalily",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 44,
+				TrophyName: "Lava Master",
+				TrophyColorRed: 240,
+				TrophyEarnedAt: 1560113654L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"uniquecrops:lavalily\",Count:1b,Damage:0s},  TrophyName:\"Lava Master\",  TrophyColorRed:240,  TrophyColorGreen:40,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

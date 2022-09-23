@@ -1,0 +1,25 @@
+{
+	title: "Primitive Storage",
+	x: 5.0d,
+	y: 1.0d,
+	text: [
+		"These stone stone chest lids are heavy to lift, but they'll do for now."
+	],
+	dependencies: [
+		"ea2ee723"
+	],
+	tasks: [{
+		uid: "2d26f7fc",
+		type: "item",
+		items: [{
+			item: "stonechest:chest_cobblestone"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "b6d5f272",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	}]
+}

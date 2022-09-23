@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"See your Lexica Botania for more information"
+	],
+	dependencies: [
+		"3ec599d2"
+	],
+	tasks: [{
+		uid: "43a52cef",
+		type: "item",
+		items: [{
+			item: "botania:gaiahead"
+		}]
+	}]
+}

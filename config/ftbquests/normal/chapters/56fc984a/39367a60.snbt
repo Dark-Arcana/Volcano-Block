@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"UNDER NO CIRCUMSTANCES should you ever harvest energion with anything but a crystal cutter"
+	],
+	dependencies: [
+		"31568903",
+		"c45590d8"
+	],
+	tasks: [{
+		uid: "6cf92386",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_dust"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a2ffcc95",
+		type: "item",
+		item: "prodigytech:energion_crystal_seed",
+		count: 4
+	},
+	{
+		uid: "a17da1fa",
+		type: "item",
+		item: "hwell:repairing_paste"
+	}]
+}

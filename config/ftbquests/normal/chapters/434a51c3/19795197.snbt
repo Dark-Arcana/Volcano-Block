@@ -1,0 +1,21 @@
+{
+	x: -13.0d,
+	y: 5.0d,
+	description: "Diamond, but metal",
+	dependencies: [
+		"9f57ccd4"
+	],
+	tasks: [{
+		uid: "071f9408",
+		type: "item",
+		items: [{
+			item: "hwell:metaldiamond_block"
+		}]
+	}],
+	rewards: [{
+		uid: "2c6ea80c",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 2
+	}]
+}

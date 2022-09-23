@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: 1.0d,
+	dependencies: [
+		"fee2d1c4"
+	],
+	tasks: [{
+		uid: "16def0bf",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:recipe_book 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

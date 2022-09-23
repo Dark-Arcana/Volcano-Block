@@ -1,0 +1,18 @@
+{
+	x: -16.0d,
+	y: -1.0d,
+	description: "Welcome to Chapter 2: Electric Boogaloo",
+	dependencies: [
+		"c4f2943e"
+	],
+	tasks: [{
+		uid: "96a3e547",
+		type: "checkmark",
+		title: "Chapter 2"
+	}],
+	rewards: [{
+		uid: "fd378259",
+		type: "item",
+		item: "solcarrot:food_book"
+	}]
+}

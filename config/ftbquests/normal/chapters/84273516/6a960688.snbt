@@ -1,0 +1,32 @@
+{
+	title: "Fission Reactor",
+	icon: "alchemistry:fission_controller",
+	x: -10.0d,
+	y: -2.0d,
+	text: [
+		"See the Alchemistry guidebook for more information on how to construct this multiblock"
+	],
+	tasks: [{
+		uid: "3b7795bd",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_core"
+		}],
+		count: 3L
+	},
+	{
+		uid: "b539849c",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_controller"
+		}]
+	},
+	{
+		uid: "9f809e09",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_casing"
+		}],
+		count: 98L
+	}]
+}

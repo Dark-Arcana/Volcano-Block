@@ -1,0 +1,21 @@
+{
+	x: -10.0d,
+	y: 2.0d,
+	description: "Lighter than air",
+	dependencies: [
+		"09c45df4"
+	],
+	tasks: [{
+		uid: "ab466c40",
+		type: "item",
+		items: [{
+			item: "uniquecrops:genericfood.largeplum"
+		}]
+	}],
+	rewards: [{
+		uid: "533d1341",
+		type: "item",
+		item: "vanillafoodpantry:salt_pork",
+		count: 4
+	}]
+}

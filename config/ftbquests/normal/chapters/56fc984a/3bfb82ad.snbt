@@ -1,0 +1,23 @@
+{
+	x: -11.0d,
+	y: -1.0d,
+	text: [
+		"This Solid Fuel Aeroheater will allow us to provide enough heat for more advanced machines"
+	],
+	dependencies: [
+		"000c87ff"
+	],
+	tasks: [{
+		uid: "21535c98",
+		type: "item",
+		items: [{
+			item: "prodigytech:solid_fuel_aeroheater"
+		}]
+	}],
+	rewards: [{
+		uid: "0bd802c8",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 16
+	}]
+}

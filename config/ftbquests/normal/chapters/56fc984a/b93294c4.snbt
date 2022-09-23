@@ -1,0 +1,24 @@
+{
+	x: -11.0d,
+	y: -5.0d,
+	text: [
+		"Right-click a vanilla crafting table with a mallet to turn it into a Tetra crafting table. Replace the mallet pieces with stone to make it strong enough to break geodes."
+	],
+	dependencies: [
+		"9e842a57",
+		"72c4910f"
+	],
+	tasks: [{
+		uid: "bf31f753",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e5a2e513",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 8
+	}]
+}

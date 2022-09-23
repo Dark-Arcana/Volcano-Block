@@ -1,0 +1,30 @@
+{
+	icon: "embers:ember_activator",
+	x: -10.0d,
+	y: 1.0d,
+	dependencies: [
+		"e0b111b1"
+	],
+	tasks: [{
+		uid: "51f1e928",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	}],
+	rewards: [{
+		uid: "e161e429",
+		type: "item",
+		item: "embers:ember_gauge"
+	},
+	{
+		uid: "55cc7e48",
+		type: "item",
+		item: "embers:codex"
+	},
+	{
+		uid: "12b46f0c",
+		type: "item",
+		item: "embers:tinker_lens"
+	}]
+}

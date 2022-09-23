@@ -1,0 +1,22 @@
+{
+	x: -16.0d,
+	y: -5.0d,
+	text: [
+		"\"Grown\" with bonemeal. Ignore what the book says about \"special bonemeal\". Regular bonemeal works fine"
+	],
+	dependencies: [
+		"dd96aec6"
+	],
+	tasks: [{
+		uid: "c3f168a7",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedmerlinia"
+		}]
+	}],
+	rewards: [{
+		uid: "790f105a",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

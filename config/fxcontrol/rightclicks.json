@@ -1,0 +1,12 @@
+[
+	{
+		"helditem": "minecraft:spawn_egg/{EntityTag:{id: \"emberroot:rootsonespriteboss\"}}",
+		"dimension": 17,
+		"result": "allow"
+	},
+	{
+		"helditem": "minecraft:spawn_egg/{EntityTag:{id: \"emberroot:rootsonespriteboss\"}}",
+		"message": "The soul of the Guardian is in Atum. Only in Atum can it be summoned.",
+		"result": "deny"
+	}
+]

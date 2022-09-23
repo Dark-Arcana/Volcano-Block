@@ -1,0 +1,63 @@
+=-= Changelog =-=
+
+v1.1.0 - 2022-09-23
+===
+
+Added Mods:
+- CensoredASM
+- Click Machine (related to #116)
+- Cooking for Blockheads (#54)
+- dan's Crafting Tweaks (replaces Crafting Tweaks)
+- dan's Mouse Tweaks (replaces Mouse Tweaks)
+- Default World Generator (replaces Topography)
+- Earthworks Unofficial Extended Life (related to #44)
+- Fog Tweaker (replaces Topography)
+- FTB Team Islands (replaces Topography)
+- Had Enough Items (replaces JEI)
+- Inductive Logistics (related to #65)
+- Inventory Bogo Sorter (replaces Inventory Tweaks)
+- Modular Routers (related to #65)
+- MPUtils
+- MPUtils Basic Tools (ingame Changelog / Infopanel)
+- No Default Auto-Jump
+- RandomPatches (replaces It's the little things)
+- Simple Sponge (#49)
+- Straw Golem Unofficial Extended Life (replaces Straw Golem)
+
+Updated Mods:
+- Athenaeum
+- B.A.S.E
+- Botania
+- Cannibalism
+- Carry On
+- ContentTweaker
+- Corail Tombstone
+- CraftTweaker
+- DiscordCraft
+- Dropt
+- Embers Rekindled
+- FoamFix
+- Gauges and Switches
+- Hearth Well
+- LootTweaker
+- ModTweaker
+- Mouse Tweaks
+- MTLib
+- ReAuth
+- Unique Crops
+
+Removed Mods:
+- It's the little things (RandomPatches already offers this feature)
+- Initial Inventory (FTB Utilities already offers this feature)
+- Removed Main Menu Scale
+- Topography (no LAN worlds, no other worldtypes allowed, no updates since 2020)
+
+Changes/Bugfixes:
+- removed old links from questbook
+- rewrite all CraftTweaker scripts
+- restructured resources
+- remade main menu graphics
+- fixed Straw Golem blacklist (#69)
+- fixed Soulus/Atum compat (#106)
+- allow every cherry wood rotation by pure daisy (#29)
+- enabled Raw Squid drops (#108)

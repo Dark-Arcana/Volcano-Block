@@ -1,0 +1,25 @@
+{
+	title: "Plant Crafting",
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"Growing normie crops would be the thing to do"
+	],
+	dependencies: [
+		"e3755f96"
+	],
+	tasks: [{
+		uid: "1af97164",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedartisia"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "8eed5c48",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

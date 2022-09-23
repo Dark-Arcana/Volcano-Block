@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"99beed84"
+	],
+	tasks: [{
+		uid: "50c8e374",
+		type: "item",
+		items: [{
+			item: "calculator:amethystsapling"
+		}]
+	}],
+	rewards: [{
+		uid: "80e6b030",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

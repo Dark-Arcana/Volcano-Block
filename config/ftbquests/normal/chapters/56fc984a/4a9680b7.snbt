@@ -1,0 +1,35 @@
+{
+	x: -5.0d,
+	y: -4.0d,
+	text: [
+		"See your Book of the Wells for more information"
+	],
+	dependencies: [
+		"079e4b22"
+	],
+	tasks: [{
+		uid: "5c5012ac",
+		type: "item",
+		items: [{
+			item: "hwell:power_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "851b3ca4",
+		type: "item",
+		item: "minecraft:grass",
+		count: 4
+	},
+	{
+		uid: "0f5bbdf5",
+		type: "item",
+		item: "hwell:nourisher"
+	},
+	{
+		uid: "f4e03b10",
+		type: "item",
+		item: "hwell:setter"
+	}]
+}

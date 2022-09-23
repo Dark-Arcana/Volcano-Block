@@ -1,0 +1,24 @@
+{
+	x: -13.0d,
+	y: 1.0d,
+	text: [
+		"Create Dark Ore with your Atomic Reshaper"
+	],
+	tasks: [{
+		uid: "d8a7b938",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "c0ceab64",
+		type: "item",
+		item: "netherchest:nether_chest"
+	},
+	{
+		uid: "f18c88dd",
+		type: "item",
+		item: "evilcraft:origins_of_darkness"
+	}]
+}

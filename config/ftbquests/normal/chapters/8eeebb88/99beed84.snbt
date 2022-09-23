@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"9e0160b0",
+		"a5c325bd"
+	],
+	tasks: [{
+		uid: "3d3bbd81",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9de49087",
+		type: "item",
+		item: "minecraft:grass",
+		count: 20
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "a8e4e97b",
+		type: "botania_mana",
+		value: 100000000L
+	}],
+	rewards: [{
+		uid: "eb0aedb6",
+		type: "command",
+		title: "Mana Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 200,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "botania:manaresource",
+					Count: 1b,
+					Damage: 2s
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "Mana Master",
+				TrophyColorRed: 10,
+				TrophyEarnedAt: 1560226506L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"botania:manaresource\",Count:1b,Damage:2s},  TrophyName:\"Mana Master\",  TrophyColorRed:10,  TrophyColorGreen:200,  TrophyColorBlue:255,  TrophyVariant:\"classic\"}"
+	}]
+}

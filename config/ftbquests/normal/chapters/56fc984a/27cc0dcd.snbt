@@ -1,0 +1,35 @@
+{
+	x: -14.0d,
+	y: -3.0d,
+	dependencies: [
+		"a0a5c5a1",
+		"10a719e7"
+	],
+	tasks: [{
+		uid: "b7f649fa",
+		type: "item",
+		items: [{
+			item: "prodigytech:heat_sawmill"
+		}]
+	}],
+	rewards: [{
+		uid: "e58e090e",
+		type: "item",
+		item: {
+			id: "vanillafoodpantry:breads",
+			Damage: 415s,
+			tag: {
+				_Hord_Instructions: {
+					FoodPortion: 5,
+					FoodTotal: 20,
+					XFood: 1b
+				}
+			}
+		}
+	},
+	{
+		uid: "4c16e592",
+		type: "item",
+		item: "hwell:grit_vase"
+	}]
+}

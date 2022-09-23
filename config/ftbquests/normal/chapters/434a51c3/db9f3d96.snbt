@@ -1,0 +1,37 @@
+{
+	icon: "embers:stamper_base",
+	x: -7.0d,
+	y: 3.0d,
+	text: [
+		"See your Ancient Codex (given as a reward a few quests ago) for more information"
+	],
+	dependencies: [
+		"719fdf7e"
+	],
+	tasks: [{
+		uid: "de9ea781",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	},
+	{
+		uid: "74cef9d8",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	},
+	{
+		uid: "afbf44fb",
+		type: "item",
+		items: [{
+			item: "embers:stamp_bar"
+		}]
+	}],
+	rewards: [{
+		uid: "84af6994",
+		type: "item",
+		item: "embers:ember_gauge"
+	}]
+}

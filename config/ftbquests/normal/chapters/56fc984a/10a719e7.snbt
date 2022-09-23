@@ -1,0 +1,23 @@
+{
+	x: -14.0d,
+	y: -1.0d,
+	text: [
+		"See your Prodigy Tech guidebook gifted at the end of Chapter 1 for more information"
+	],
+	dependencies: [
+		"dd96aec6"
+	],
+	tasks: [{
+		uid: "18ca574d",
+		type: "item",
+		items: [{
+			item: "prodigytech:rotary_grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "9c7a9e8c",
+		type: "item",
+		item: "prodigytech:sugar_cube",
+		count: 5
+	}]
+}

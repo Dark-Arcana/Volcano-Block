@@ -1,0 +1,15 @@
+{
+	x: 11.0d,
+	y: -2.0d,
+	text: [
+		"\"Planting\" mysterious dust in grass (by right-clicking) provides an easy way to get more mysterious dust. Mysterious grass blocks will grow grass plants on them that can be harvested."
+	],
+	dependencies: [
+		"fb59b9b7"
+	],
+	tasks: [{
+		uid: "9b37e2d0",
+		type: "checkmark",
+		title: "MYSTERIOUS GRASS"
+	}]
+}

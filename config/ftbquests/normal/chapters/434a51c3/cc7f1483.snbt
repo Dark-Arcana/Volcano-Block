@@ -1,0 +1,22 @@
+{
+	x: -12.0d,
+	y: 0.0d,
+	dependencies: [
+		"f13e07d0"
+	],
+	tasks: [{
+		uid: "66586c84",
+		type: "item",
+		items: [{
+			id: "uniquecrops:3dglasses",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9916b1df",
+		type: "item",
+		item: "uniquecrops:pixelglasses"
+	}]
+}

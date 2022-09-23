@@ -1,0 +1,20 @@
+{
+	x: -8.0d,
+	y: -3.0d,
+	text: [
+		"Music discs can be dissolved to create cadmium, among other things"
+	],
+	dependencies: [
+		"7dba1fa2",
+		"68628207",
+		"d393e7d6"
+	],
+	tasks: [{
+		uid: "f0a23dc9",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 48"
+		}],
+		count: 9L
+	}]
+}

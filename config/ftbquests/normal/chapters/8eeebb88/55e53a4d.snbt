@@ -1,0 +1,30 @@
+{
+	x: 16.0d,
+	y: 2.0d,
+	text: [
+		"Operating the Composer is a bit tricky...",
+		"",
+		"So first, you want to assemble the Composer multiblock as shown in the Soulus guidebook. The guidebook will provide you with a hologram to assist you. I would recommend building it on top of your existing mobfarm.",
+		"",
+		"Next, you need to spawn mobs underneath the composer. The Composer will zap them from existence.",
+		"",
+		"You will almost certainly need to upgrade the composer with murky orbs to extend the range it can search for mobs from.",
+		"",
+		"Lastly, the larger the variety of mobs you feed to the compser, the faster it will operate"
+	],
+	dependencies: [
+		"4aa6d20a"
+	],
+	tasks: [{
+		uid: "b41fa79b",
+		type: "item",
+		items: [{
+			item: "soulus:crystal_dark"
+		}]
+	}],
+	rewards: [{
+		uid: "f166ec08",
+		type: "choice",
+		table: 0
+	}]
+}

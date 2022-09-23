@@ -1,0 +1,20 @@
+{
+	x: -11.0d,
+	y: 3.0d,
+	dependencies: [
+		"f13e07d0"
+	],
+	tasks: [{
+		uid: "676994d5",
+		type: "item",
+		items: [{
+			item: "prodigytech:zorra_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "302ccb1d",
+		type: "item",
+		item: "prodigytech:zorra_sapling",
+		count: 4
+	}]
+}

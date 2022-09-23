@@ -1,0 +1,28 @@
+{
+	x: -4.0d,
+	y: 7.0d,
+	description: "Neat.",
+	dependencies: [
+		"94311fe5"
+	],
+	tasks: [{
+		uid: "367b7441",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				mode: "BuildToMe",
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b93ce259",
+		type: "item",
+		item: "vanillafoodpantry:pickled_egg"
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	icon: "embers:ember_emitter",
+	x: -10.0d,
+	y: 3.0d,
+	text: [
+		"You will need these gadgets to operate any of your embers contraptions"
+	],
+	dependencies: [
+		"986212eb"
+	],
+	tasks: [{
+		uid: "33a1e1a9",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	},
+	{
+		uid: "584ca11d",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "58500c68",
+		type: "item",
+		items: [{
+			item: "embers:tinker_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b69bdc71",
+		type: "item",
+		item: "embers:caminite_lever",
+		count: 4
+	}]
+}

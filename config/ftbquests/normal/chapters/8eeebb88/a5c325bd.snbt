@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"d0087ded"
+	],
+	tasks: [{
+		uid: "5aa74d13",
+		type: "item",
+		items: [{
+			item: "vanillafoodpantry:gelatin_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "83196b41",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

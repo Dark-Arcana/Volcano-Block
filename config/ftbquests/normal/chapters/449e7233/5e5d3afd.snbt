@@ -1,0 +1,16 @@
+{
+	title: "Speedy Crop Growth",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"HOLD down shift (crouch) to accelerate the growth of crops"
+	],
+	dependencies: [
+		"3dbfde3b"
+	],
+	tasks: [{
+		uid: "8f7eba89",
+		type: "checkmark",
+		icon: "minecraft:clock"
+	}]
+}

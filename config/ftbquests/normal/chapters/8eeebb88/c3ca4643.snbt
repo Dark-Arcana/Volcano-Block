@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"Use a sickle on the leaves of this tree once it fruits to harvest pears and rotten pears. Pears can be used as a food source of course, and rotten pears can be used as slimeballs"
+	],
+	dependencies: [
+		"7184205e",
+		"efe77fb5"
+	],
+	tasks: [{
+		uid: "5aa54355",
+		type: "item",
+		items: [{
+			item: "calculator:pearsapling"
+		}]
+	}],
+	rewards: [{
+		uid: "30843112",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

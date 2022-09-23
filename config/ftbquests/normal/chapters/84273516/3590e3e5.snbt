@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	dependencies: [
+		"c40ac043"
+	],
+	tasks: [{
+		uid: "78cd4c1e",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 118"
+		}]
+	}],
+	rewards: [{
+		uid: "237d2795",
+		type: "item",
+		item: "vanillafoodpantry:fries 1 5",
+		count: 8
+	}]
+}

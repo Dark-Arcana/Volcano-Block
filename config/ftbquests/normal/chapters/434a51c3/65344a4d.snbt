@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"a70ca50a"
+	],
+	tasks: [{
+		uid: "4e0e4471",
+		type: "item",
+		items: [{
+			item: "forbidden_arcanus:dark_matter"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "d022a575",
+		type: "choice",
+		table: 1
+	}]
+}

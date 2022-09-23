@@ -1,0 +1,181 @@
+[
+    {
+        "key": "enchantment/unbreaking",
+        "level": 1,
+        "enchantment": true,
+        "effects": {
+            "unbreaking": 1
+        }
+    },
+    {
+        "key": "enchantment/unbreaking",
+        "level": 2,
+        "enchantment": true,
+        "effects": {
+            "unbreaking": 2
+        }
+    },
+    {
+        "key": "enchantment/unbreaking",
+        "level": 3,
+        "enchantment": true,
+        "effects": {
+            "unbreaking": 3
+        }
+    },
+    {
+        "key": "enchantment/unbreaking",
+        "level": 4,
+        "enchantment": true,
+        "effects": {
+            "unbreaking": 4
+        }
+    },
+    {
+        "key": "enchantment/unbreaking",
+        "level": 5,
+        "enchantment": true,
+        "effects": {
+            "unbreaking": 5
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 1,
+        "enchantment": true,
+        "capabilities": {
+            "pickaxe": [0, 1.66666667]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 2,
+        "enchantment": true,
+        "capabilities": {
+            "pickaxe": [0, 4.166666667]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 3,
+        "enchantment": true,
+        "capabilities": {
+            "pickaxe": [0, 8.33333333]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 4,
+        "enchantment": true,
+        "capabilities": {
+            "pickaxe": [0, 14.16666667]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 5,
+        "enchantment": true,
+        "capabilities": {
+            "pickaxe": [0, 21.6666667]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 6,
+        "enchantment": true,
+        "capabilities": {
+            "axe": [0, 34.2591]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 7,
+        "enchantment": true,
+        "capabilities": {
+            "axe": [0, 46.2962]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 8,
+        "enchantment": true,
+        "capabilities": {
+            "axe": [0, 60.1851]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 9,
+        "enchantment": true,
+        "capabilities": {
+            "axe": [0, 75.9259]
+        }
+    },
+    {
+        "key": "enchantment/efficiency",
+        "level": 10,
+        "enchantment": true,
+        "capabilities": {
+            "axe": [0, 93.5185]
+        }
+    },
+    {
+        "key": "enchantment/fortune",
+        "level": 1,
+        "enchantment": true,
+        "effects": {
+            "fortune": 1
+        }
+    },
+    {
+        "key": "enchantment/fortune",
+        "level": 2,
+        "enchantment": true,
+        "effects": {
+            "fortune": 2
+        }
+    },
+    {
+        "key": "enchantment/fortune",
+        "level": 3,
+        "enchantment": true,
+        "effects": {
+            "fortune": 3
+        }
+    },
+    {
+        "key": "enchantment/fortune",
+        "level": 4,
+        "enchantment": true,
+        "effects": {
+            "fortune": 4
+        }
+    },
+    {
+        "key": "enchantment/fortune",
+        "level": 5,
+        "enchantment": true,
+        "effects": {
+            "fortune": 5
+        }
+    },
+    {
+        "key": "enchantment/silk_touch",
+        "level": 1,
+        "enchantment": true,
+        "effects": {
+            "silkTouch": 1
+        }
+    },
+    {
+        "key": "basic_pickaxe/puncturing",
+        "level": 1,
+        "effects": {
+            "armorPenetration": 2
+        }
+    },
+    {
+        "key": "basic_pickaxe/smelting",
+        "level": 0
+    }
+]

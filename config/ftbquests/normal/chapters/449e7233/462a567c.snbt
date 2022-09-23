@@ -1,0 +1,35 @@
+{
+	title: "Some Strange Seeds",
+	icon: "uniquecrops:seednormal",
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"5e5d3afd"
+	],
+	tasks: [{
+		uid: "35f34a7b",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seednormal"
+		}],
+		count: 4L
+	},
+	{
+		uid: "33185014",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedartisia"
+		}]
+	}],
+	rewards: [{
+		uid: "5a9c1c06",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	},
+	{
+		uid: "261f60a9",
+		type: "item",
+		item: "uniquecrops:generic"
+	}]
+}

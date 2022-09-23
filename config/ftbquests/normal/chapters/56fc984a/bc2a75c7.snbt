@@ -1,0 +1,20 @@
+{
+	x: -9.0d,
+	y: -2.0d,
+	description: "Green is not a creative color",
+	dependencies: [
+		"0fbac459"
+	],
+	tasks: [{
+		uid: "022acb3c",
+		type: "item",
+		items: [{
+			item: "minecraft:cactus"
+		}]
+	}],
+	rewards: [{
+		uid: "463d4587",
+		type: "item",
+		item: "minecraft:iron_leggings"
+	}]
+}

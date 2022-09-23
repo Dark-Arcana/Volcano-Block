@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	text: [
+		"Snow can be created by using the freezer on water"
+	],
+	dependencies: [
+		"4a9680b7"
+	],
+	tasks: [{
+		uid: "5c9fa207",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}]
+	}],
+	rewards: [{
+		uid: "343bc566",
+		type: "item",
+		item: "minecraft:grass",
+		count: 4
+	}]
+}

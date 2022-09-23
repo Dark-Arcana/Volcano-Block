@@ -1,0 +1,30 @@
+{
+	icon: "minecraft:furnace",
+	x: 6.0d,
+	y: -1.0d,
+	description: "In a volcano?",
+	dependencies: [
+		"ea2ee723"
+	],
+	tasks: [{
+		uid: "66699107",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	},
+	{
+		uid: "65706588",
+		type: "item",
+		items: [{
+			item: "morecharcoal:beet_charcoal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0077cd8d",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	text: [
+		"Become the Primordium Master"
+	],
+	tasks: [{
+		uid: "b6a50761",
+		type: "item",
+		items: [{
+			item: "prodigytech:primordium"
+		}],
+		count: 20000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0b43476d",
+		type: "command",
+		title: "Primordium Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 20,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "prodigytech:primordium",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 200,
+				TrophyName: "Primordium Master",
+				TrophyColorRed: 200,
+				TrophyEarnedAt: 1560114277L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"prodigytech:primordium\",Count:1b,Damage:0s},  TrophyName:\"Primordium Master\",  TrophyColorRed:200,  TrophyColorGreen:20,  TrophyColorBlue:200,  TrophyVariant:\"classic\"}"
+	}]
+}

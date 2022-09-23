@@ -1,0 +1,21 @@
+{
+	x: -13.0d,
+	y: 3.0d,
+	description: ":thonk:",
+	dependencies: [
+		"f13e07d0"
+	],
+	tasks: [{
+		uid: "6b245e4f",
+		type: "item",
+		items: [{
+			item: "hwell:core_sentient"
+		}]
+	}],
+	rewards: [{
+		uid: "936b6e8b",
+		type: "item",
+		item: "hwell:locked_light",
+		count: 4
+	}]
+}

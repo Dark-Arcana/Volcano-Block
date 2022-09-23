@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"8c766783"
+	],
+	tasks: [{
+		uid: "45fbcc3b",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "2bcd1fbf",
+		type: "item",
+		item: "evilcraft:condensed_blood"
+	}]
+}

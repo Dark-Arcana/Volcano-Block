@@ -1,0 +1,33 @@
+{
+	title: "Sticky Goo",
+	icon: "soulus:glue",
+	x: 9.0d,
+	y: -1.0d,
+	text: [
+		"Glue can be made by tossing bonemeal and sugar into a water block"
+	],
+	dependencies: [
+		"589ddd5b"
+	],
+	tasks: [{
+		uid: "444c5dcf",
+		type: "item",
+		items: [{
+			item: "soulus:glue"
+		}]
+	},
+	{
+		uid: "61702d8c",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "35b994c8",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	}]
+}

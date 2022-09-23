@@ -1,0 +1,19 @@
+{
+	x: -11.0d,
+	y: -6.0d,
+	dependencies: [
+		"b93294c4"
+	],
+	tasks: [{
+		uid: "bd2ade88",
+		type: "item",
+		items: [{
+			item: "compactstorage:chestbuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "971c4eea",
+		type: "item",
+		item: "minecraft:chest"
+	}]
+}

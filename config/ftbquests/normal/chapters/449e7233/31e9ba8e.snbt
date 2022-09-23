@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	text: [
+		"Collis plants will only grow when at y:103+, and in range of a light source"
+	],
+	dependencies: [
+		"2933b5f6"
+	],
+	tasks: [{
+		uid: "ce162132",
+		type: "item",
+		items: [{
+			item: "uniquecrops:generic 1 6"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "7d952fed",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	}]
+}

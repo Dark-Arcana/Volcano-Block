@@ -1,0 +1,27 @@
+{
+	x: 17.0d,
+	y: 2.0d,
+	text: [
+		"Creating Niobium ingots uses the same process that was described in the previous quest to create the midnight jewel"
+	],
+	dependencies: [
+		"55e53a4d"
+	],
+	tasks: [{
+		uid: "22604b5f",
+		type: "item",
+		items: [{
+			item: "soulus:ingot_niobium"
+		}]
+	}],
+	rewards: [{
+		uid: "dd9c7dd0",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "alchemistry:alchemistry_book"
+			}
+		}
+	}]
+}

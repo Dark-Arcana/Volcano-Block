@@ -1,0 +1,29 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	dependencies: [
+		"1f282842"
+	],
+	tasks: [{
+		uid: "ea6d92c5",
+		type: "item",
+		items: [{
+			id: "soulus:soulbook",
+			tag: {
+				essence_type: "minecraft:enderman"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "8944b809",
+		type: "item",
+		item: "evilcraft:condensed_blood"
+	},
+	{
+		uid: "6e325f5e",
+		type: "choice",
+		table: 0
+	}]
+}

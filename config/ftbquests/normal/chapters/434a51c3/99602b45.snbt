@@ -1,0 +1,92 @@
+{
+	x: -10.0d,
+	y: -2.0d,
+	text: [
+		"Lastly, we need to imbue a soulbook with the essence of a creature and insert it into our summoner in order to use it"
+	],
+	dependencies: [
+		"095335c3"
+	],
+	tasks: [{
+		uid: "34d7e548",
+		type: "item",
+		items: [{
+			id: "soulus:soulbook",
+			tag: {
+				essence_type: "minecraft:spider"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "1edf2b0c",
+		type: "item",
+		item: {
+			id: "soulus:essence_perfect",
+			tag: {
+				essence_types: [
+					"minecraft:bat",
+					"minecraft:blaze",
+					"minecraft:cave_spider",
+					"minecraft:chicken",
+					"minecraft:cow",
+					"minecraft:creeper",
+					"minecraft:donkey",
+					"minecraft:elder_guardian",
+					"minecraft:enderman",
+					"minecraft:endermite",
+					"minecraft:evocation_illager",
+					"minecraft:ghast",
+					"minecraft:guardian",
+					"minecraft:horse",
+					"minecraft:husk",
+					"minecraft:llama",
+					"minecraft:magma_cube",
+					"minecraft:mooshroom",
+					"minecraft:mule",
+					"minecraft:ocelot",
+					"minecraft:parrot",
+					"minecraft:pig",
+					"minecraft:polar_bear",
+					"minecraft:rabbit",
+					"minecraft:sheep",
+					"minecraft:shulker",
+					"minecraft:silverfish",
+					"minecraft:skeleton",
+					"minecraft:skeleton_horse",
+					"minecraft:slime",
+					"minecraft:spider",
+					"minecraft:squid",
+					"minecraft:stray",
+					"minecraft:vex",
+					"minecraft:villager",
+					"minecraft:vindication_illager",
+					"minecraft:witch",
+					"minecraft:wither_skeleton",
+					"minecraft:wolf",
+					"minecraft:zombie",
+					"minecraft:zombie_horse",
+					"minecraft:zombie_pigman",
+					"minecraft:zombie_villager",
+					"evilcraft:werewolf",
+					"evilcraft:netherfish",
+					"evilcraft:poisonous_libelle",
+					"evilcraft:vengeance_spirit"
+				]
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "5d454aab",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "7d39f34d",
+		type: "item",
+		item: "darkutils:trap_move",
+		count: 8
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Grass Blocks",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"Crafted with wheat. Wheat can also come from normie crops"
+	],
+	dependencies: [
+		"3a2b39a4"
+	],
+	tasks: [{
+		uid: "bc21dcf7",
+		type: "item",
+		items: [{
+			item: "minecraft:grass"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "3fa42657",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	text: [
+		"Right-click a Runic Tenebris Frame with your dark nether star, then right click the core with a rune to convert it into a dark rune"
+	],
+	dependencies: [
+		"279af3e1"
+	],
+	tasks: [{
+		uid: "59e2c39a",
+		type: "item",
+		items: [{
+			item: "forbidden_arcanus:dark_rune"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Cobblonia Fruit",
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"Cobblonia will emit cobblestone once it is fully grown and has lava on one side and water on the other side of it's dirt patch",
+		""
+	],
+	dependencies: [
+		"d207fdc6",
+		"586fc421"
+	],
+	tasks: [{
+		uid: "3bb83aa8",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "f914f558",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	},
+	{
+		uid: "c4bdcddc",
+		type: "item",
+		item: "betterbuilderswands:wandstone"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	text: [
+		"See your Book of the Wells for more information"
+	],
+	dependencies: [
+		"edc95f23"
+	],
+	tasks: [{
+		uid: "858e1632",
+		type: "item",
+		items: [{
+			item: "hwell:freezer"
+		}]
+	}],
+	rewards: [{
+		uid: "b7d49420",
+		type: "item",
+		item: "minecraft:grass",
+		count: 4
+	}]
+}

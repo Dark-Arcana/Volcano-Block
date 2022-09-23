@@ -1,0 +1,42 @@
+{
+	x: 13.0d,
+	y: -1.0d,
+	text: [
+		"We are surrounded by lava, we might as well harness its power, right?"
+	],
+	dependencies: [
+		"d9c1302d",
+		"588bcf15",
+		"9ac5f126"
+	],
+	tasks: [{
+		uid: "97085da7",
+		type: "item",
+		items: [{
+			item: "prodigytech:magmatic_aeroheater"
+		}]
+	}],
+	rewards: [{
+		uid: "1a6c8f67",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "prodigytech:guide"
+			}
+		}
+	},
+	{
+		uid: "9febbb3f",
+		type: "item",
+		item: "vanillafoodpantry:fried_egg_sandwich",
+		count: 2
+	},
+	{
+		uid: "d846f32c",
+		type: "command",
+		title: "Advancements",
+		auto: "enabled",
+		command: "/advancement grant @p until prodigytech:main/aeroheater"
+	}]
+}

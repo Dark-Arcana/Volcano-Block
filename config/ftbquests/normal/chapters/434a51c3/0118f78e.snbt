@@ -1,0 +1,21 @@
+{
+	x: -6.0d,
+	y: 3.0d,
+	dependencies: [
+		"db9f3d96",
+		"53c42ac2"
+	],
+	tasks: [{
+		uid: "4564bfaf",
+		type: "item",
+		items: [{
+			item: "embers:archaic_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "42461c91",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 4
+	}]
+}

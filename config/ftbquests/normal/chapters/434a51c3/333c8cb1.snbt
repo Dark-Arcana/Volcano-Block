@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	description: "Now with more buttons",
+	dependencies: [
+		"bcc5f966"
+	],
+	tasks: [{
+		uid: "ea674fd0",
+		type: "item",
+		items: [{
+			id: "calculator:scientificcalculator",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f5afb129",
+		type: "item",
+		item: "vanillafoodpantry:stewed 1 40"
+	}]
+}

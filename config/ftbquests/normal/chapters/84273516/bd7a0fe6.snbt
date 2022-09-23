@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	dependencies: [
+		"924edc60"
+	],
+	tasks: [{
+		uid: "e56bb105",
+		type: "item",
+		items: [{
+			item: "uniquecrops:steel_donut"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"Refer to your unique crops guidebook entry on Artisia plants if you are having trouble creating this seed"
+	],
+	dependencies: [
+		"77f3427b"
+	],
+	tasks: [{
+		uid: "6a04a32b",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedcobblonia"
+		}]
+	}],
+	rewards: [{
+		uid: "e3376525",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

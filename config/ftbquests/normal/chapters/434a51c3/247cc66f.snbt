@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"ba9f81b3",
+		"f94095b5"
+	],
+	tasks: [{
+		uid: "e03aa24c",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "132c3185",
+		type: "item",
+		item: "evilcraft:condensed_blood",
+		count: 8
+	},
+	{
+		uid: "06bfd369",
+		type: "choice",
+		table: 1
+	}]
+}

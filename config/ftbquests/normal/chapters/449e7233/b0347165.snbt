@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Harvest an Artisia plant to acquire a crafting table"
+	],
+	dependencies: [
+		"462a567c"
+	],
+	tasks: [{
+		uid: "504aba79",
+		type: "item",
+		items: [{
+			item: "craftingstation:crafting_station"
+		}]
+	}],
+	rewards: [{
+		uid: "2b407202",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

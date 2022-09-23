@@ -1,0 +1,25 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	text: [
+		"Read your Prodigy Tech guidebook for more information",
+		"",
+		"Don't insert anyone or anything you care about into this machine"
+	],
+	dependencies: [
+		"20207c94"
+	],
+	tasks: [{
+		uid: "e185c0f4",
+		type: "item",
+		items: [{
+			item: "prodigytech:incinerator"
+		}]
+	}],
+	rewards: [{
+		uid: "e38ac401",
+		type: "item",
+		item: "vanillafoodpantry:kebab",
+		count: 4
+	}]
+}

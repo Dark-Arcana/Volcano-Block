@@ -1,0 +1,29 @@
+{
+	icon: "minecraft:glass",
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"5a43c05e"
+	],
+	tasks: [{
+		uid: "f5c2de9c",
+		type: "item",
+		items: [{
+			item: "hwell:dust_block"
+		}]
+	},
+	{
+		uid: "37e06c1f",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0a27a866",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

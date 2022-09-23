@@ -1,0 +1,29 @@
+{
+	x: -11.0d,
+	y: -2.0d,
+	text: [
+		"Read your Prodigy Tech guidebook for more information"
+	],
+	dependencies: [
+		"0692f37e",
+		"3bfb82ad",
+		"ddaa0c28"
+	],
+	tasks: [{
+		uid: "089f06e8",
+		type: "item",
+		items: [{
+			item: "prodigytech:solderer"
+		}]
+	}],
+	rewards: [{
+		uid: "fe33792d",
+		type: "item",
+		item: "minecraft:iron_helmet"
+	},
+	{
+		uid: "0743645b",
+		type: "item",
+		item: "vaultopic:view_small"
+	}]
+}

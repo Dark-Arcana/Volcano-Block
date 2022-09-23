@@ -1,0 +1,35 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"Become the Liquid Souls Master"
+	],
+	tasks: [{
+		uid: "ae9d96c0",
+		type: "fluid",
+		fluid: "liquid_souls",
+		amount: 20000000
+	}],
+	rewards: [{
+		uid: "60fff6ed",
+		type: "command",
+		title: "Liquid Souls Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 40,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "hwell:myst_dust",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 200,
+				TrophyName: "Liquid Souls Master",
+				TrophyColorRed: 200,
+				TrophyEarnedAt: 1560113760L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"hwell:myst_dust\",Count:1b,Damage:0s},  TrophyName:\"Liquid Souls Master\",  TrophyColorRed:200,  TrophyColorGreen:40,  TrophyColorBlue:200,  TrophyVariant:\"classic\"}"
+	}]
+}

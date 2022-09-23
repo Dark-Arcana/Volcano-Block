@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"Remember, if this crop isn't growing make sure it has enough light."
+	],
+	dependencies: [
+		"5a43c05e",
+		"46da61af"
+	],
+	tasks: [{
+		uid: "e5e4f2da",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedeula"
+		}]
+	}],
+	rewards: [{
+		uid: "264f1e77",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

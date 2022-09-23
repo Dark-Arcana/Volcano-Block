@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"Flax seeds can occasionally be found by breaking grass",
+		"",
+		"Remember, if this crop isn't growing make sure it has enough light."
+	],
+	dependencies: [
+		"ea2ee723"
+	],
+	tasks: [{
+		uid: "a2906e7a",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedpixelsius"
+		}]
+	}],
+	rewards: [{
+		uid: "b13ec8bf",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	}]
+}

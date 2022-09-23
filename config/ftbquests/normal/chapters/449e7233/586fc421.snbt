@@ -1,0 +1,34 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"Putting hay blocks in the drying basin will yield water."
+	],
+	dependencies: [
+		"3a2b39a4"
+	],
+	tasks: [{
+		uid: "d8aa2212",
+		type: "item",
+		items: [{
+			id: "vefluids:vebucket",
+			tag: {
+				Fluid: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					bucket_cap: {}
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4f54181e",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

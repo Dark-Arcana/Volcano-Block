@@ -1,0 +1,10 @@
+{
+	title: "Chapter 3",
+	icon: {
+		id: "evilcraft:blood_infuser",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

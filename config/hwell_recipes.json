@@ -1,0 +1,151 @@
+{
+	"version": "0.4.2",
+	"coring_recipes": {
+		"core_stone": {
+			"shard_c" : {
+				"output": { "item": "minecraft:coal_block" },
+				"inputs": [{ "item": "minecraft:log" },{ "item": "minecraft:log2" }]
+			},
+			"shard_h" : {
+				"output": { "item": "minecraft:soul_sand" },
+				"inputs": [{ "item": "minecraft:sand" }]
+			},
+			"shard_o" : {
+				"output": { "item": "hwell:compressed_clay" },
+				"inputs": [{ "item": "minecraft:air" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "minecraft:bone_block" },
+				"inputs": [{ "item": "minecraft:glass" },{ "item": "minecraft:stained_glass" }]
+			},
+			"shard_p" : {
+				"output": { "item": "minecraft:redstone_block" },
+				"inputs": [{ "item": "minecraft:netherrack" },{ "item": "minecraft:magma" }]
+			},
+			"shard_n" : {
+				"output": { "item": "hwell:mutation_paste_block" },
+				"inputs": [{ "item": "hwell:fertile_soil" }]
+			}
+		},
+		"core_heat": {
+			"shard_c" : {
+				"output": { "item": "minecraft:tnt" },
+				"inputs": [{ "item": "minecraft:hardened_clay" },{ "item": "minecraft:stained_hardened_clay" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "minecraft:nether_brick" },
+				"inputs": [{ "item": "minecraft:iron_block" }]
+			},
+			"shard_au" : {
+				"output": { "item": "minecraft:glowstone" },
+				"inputs": [{ "item": "minecraft:gold_block" }]
+			},
+			"shard_h" : {
+				"output": { "item": "minecraft:netherrack" },
+				"inputs": [{ "item": "minecraft:coal_block" }]
+			},
+			"shard_o" : {
+				"output": { "item": "minecraft:sea_lantern" },
+				"inputs": [{ "item": "minecraft:snow" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "minecraft:quartz_block", "data": 0 },
+				"inputs": [{ "item": "minecraft:snow" }]
+			},
+			"shard_p" : {
+				"output": { "item": "minecraft:magma" },
+				"inputs": [{ "item": "minecraft:netherrack" },{ "item": "minecraft:nether_brick" }]
+			}
+		},
+		"core_green": {
+			"shard_c" : {
+				"output": { "item": "minecraft:mycelium" },
+				"inputs": [{ "item": "minecraft:brown_mushroom_block" }, { "item": "minecraft:red_mushroom_block" }]
+			},
+			"shard_fe" : {
+				"output": {"item": "minecraft:melon_block" },
+				"inputs": [{ "item": "hwell:fertilizer_block" }]
+			},
+			"shard_au" : {
+				"output": { "item": "minecraft:pumpkin" },
+				"inputs": [{ "item": "hwell:fertilizer_block" }]
+			},
+			"shard_h" : {
+				"output": { "item": "minecraft:slime" },
+				"inputs": [{ "item": "minecraft:mossy_cobblestone" }]
+			},
+			"shard_o" : {
+				"output": { "item": "minecraft:lapis_block" },
+				"inputs": [{ "item": "minecraft:prismarine" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "hwell:compressed_wool" },
+				"inputs": [{ "item": "minecraft:air" }]
+			},
+			"shard_p" : {
+				"output": { "item": "hwell:skin_block" },
+				"inputs": [{ "item": "minecraft:wool" }]
+			},
+			"shard_n" : {
+				"output": { "item": "minecraft:prismarine", "data": 0 },
+				"inputs": [{ "item": "minecraft:ice" },{ "item": "minecraft:packed_ice" }]
+			}
+		},
+		"core_sentient": {
+			"shard_c" : {
+				"output": { "item": "minecraft:dirt", "data": 2 },
+				"inputs": [{ "item": "minecraft:cobblestone" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "hwell:metaldiamond_block" },
+				"inputs": [{ "item": "minecraft:diamond_block" }]
+			},
+			"shard_h" : {
+				"output": { "item": "minecraft:purpur_block" },
+				"inputs": [{ "item": "minecraft:end_stone" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "hwell:weeping_block" },
+				"inputs": [{ "item": "minecraft:red_nether_brick" }]
+			},
+			"shard_p" : {
+				"output": { "item": "minecraft:nether_wart_block" },
+				"inputs": [{ "item": "minecraft:brown_mushroom_block" }, { "item": "minecraft:red_mushroom_block" }]
+			}
+		},
+		"core_anima": {
+			"shard_c" : {
+				"output": { "item": "hwell:ink_block" },
+				"inputs": [{ "item": "minecraft:cobblestone" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "hwell:compressed_wool" },
+				"inputs": [{ "item": "minecraft:cobblestone" }]
+			},
+			"shard_au" : {
+				"output": { "item": "minecraft:cobblestone" },
+				"inputs": [{ "item": "minecraft:cobblestone" }]
+			},
+			"shard_h" : {
+				"output": { "item": "hwell:meat_block" },
+				"inputs": [{ "item": "hwell:skin_block" }]
+			},
+			"shard_o" : {
+				"output": { "item": "minecraft:cobblestone" },
+				"inputs": [{ "item": "minecraft:cobblestone" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "hwell:plumage_block" },
+				"inputs": [{ "item": "hwell:compressed_wool" }]
+			},
+			"shard_p" : {
+				"output": { "item": "hwell:skin_block" },
+				"inputs": [{ "item": "minecraft:cobblestone" }]
+			},
+			"shard_n" : {
+				"output": { "item": "minecraft:slime" },
+				"inputs": [{ "item": "hwell:ink_block" }]
+			}
+		}
+	}
+}

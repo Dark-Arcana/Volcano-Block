@@ -1,0 +1,23 @@
+{
+	x: -7.0d,
+	y: -4.0d,
+	text: [
+		"Can not be created inside of chunks claimed with FTB Utils"
+	],
+	dependencies: [
+		"6d6b93d3"
+	],
+	tasks: [{
+		uid: "7d11964e",
+		type: "item",
+		items: [{
+			item: "hwell:core_heat"
+		}]
+	}],
+	rewards: [{
+		uid: "18527e5a",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 8
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Amplifying Tubes",
+	x: -13.0d,
+	y: -2.0d,
+	text: [
+		"See your Book of the Well for more information"
+	],
+	dependencies: [
+		"10a719e7"
+	],
+	tasks: [{
+		uid: "76dd545f",
+		type: "item",
+		items: [{
+			item: "hwell:furnace_tube"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "740b4ca9",
+		type: "item",
+		item: "hwell:furnace_tube",
+		count: 2
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"e757413c"
+	],
+	tasks: [{
+		uid: "ae81e4eb",
+		type: "item",
+		items: [{
+			item: "evilcraft:garmonbozia"
+		}]
+	}],
+	rewards: [{
+		uid: "77d67138",
+		type: "choice",
+		table: 1
+	}]
+}

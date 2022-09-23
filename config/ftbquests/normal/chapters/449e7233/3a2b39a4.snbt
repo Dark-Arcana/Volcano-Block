@@ -1,0 +1,40 @@
+{
+	icon: "integrateddynamics:drying_basin",
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"b0347165"
+	],
+	tasks: [{
+		uid: "88db8c4c",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:drying_basin"
+		}]
+	},
+	{
+		uid: "6339735b",
+		type: "item",
+		items: [{
+			id: "vefluids:vebucket",
+			ForgeCaps: {
+				Parent: {
+					bucket_cap: {}
+				}
+			}
+		}]
+	},
+	{
+		uid: "0d4cb5e1",
+		type: "item",
+		items: [{
+			item: "minecraft:hay_block"
+		}]
+	}],
+	rewards: [{
+		uid: "e05ec2a9",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

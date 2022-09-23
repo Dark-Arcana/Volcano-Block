@@ -1,0 +1,19 @@
+{
+	x: -10.0d,
+	y: -4.0d,
+	text: [
+		"Will grow when stimulated by a noteblock. It prefers chonky beats, so put your noteblock on top of something hard like stone or obsidian"
+	],
+	tasks: [{
+		uid: "ed817fd2",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedmusica"
+		}]
+	}],
+	rewards: [{
+		uid: "16587157",
+		type: "item",
+		item: "minecraft:jukebox"
+	}]
+}

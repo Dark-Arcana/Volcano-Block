@@ -1,0 +1,42 @@
+{
+	title: "Mysterious Dust?",
+	icon: "hwell:myst_dust",
+	x: 10.0d,
+	y: -2.0d,
+	text: [
+		"Hold right-click while wielding an empty rod to insert some of your soul into it..."
+	],
+	dependencies: [
+		"46f8e4fe"
+	],
+	tasks: [{
+		uid: "d7f733c5",
+		type: "item",
+		items: [{
+			item: "hwell:empty_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3d7450f7",
+		type: "item",
+		items: [{
+			item: "hwell:myst_rod"
+		}]
+	},
+	{
+		uid: "e17a91bf",
+		type: "item",
+		items: [{
+			item: "hwell:myst_dust"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "bcf91333",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

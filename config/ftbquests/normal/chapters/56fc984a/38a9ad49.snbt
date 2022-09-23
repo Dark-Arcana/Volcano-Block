@@ -1,0 +1,22 @@
+{
+	title: "Basic Pipes",
+	x: -15.0d,
+	y: -5.0d,
+	dependencies: [
+		"a0a5c5a1"
+	],
+	tasks: [{
+		uid: "a8200146",
+		type: "item",
+		items: [{
+			item: "inspirations:pipe"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "96a83a94",
+		type: "item",
+		item: "inspirations:pipe",
+		count: 8
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	icon: "soulus:composer",
+	x: 15.0d,
+	y: 2.0d,
+	dependencies: [
+		"e1261e48"
+	],
+	tasks: [{
+		uid: "c53a13c6",
+		type: "item",
+		items: [{
+			item: "soulus:composer"
+		}]
+	}],
+	rewards: [{
+		uid: "95541169",
+		type: "choice",
+		table: 0
+	}]
+}

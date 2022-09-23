@@ -1,0 +1,22 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	text: [
+		"Read your Prodigy Tech guidebook for more information"
+	],
+	dependencies: [
+		"b7c249a0"
+	],
+	tasks: [{
+		uid: "ebe2970c",
+		type: "item",
+		items: [{
+			item: "prodigytech:magnetic_reassembler"
+		}]
+	}],
+	rewards: [{
+		uid: "17656589",
+		type: "item",
+		item: "hwell:mutation_paste_block"
+	}]
+}

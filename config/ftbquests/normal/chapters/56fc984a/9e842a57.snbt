@@ -1,0 +1,26 @@
+{
+	title: "Geodudes",
+	x: -12.0d,
+	y: -6.0d,
+	description: "Geodude",
+	text: [
+		"See next quest for more information"
+	],
+	dependencies: [
+		"cd7fc151"
+	],
+	tasks: [{
+		uid: "8db0fe8b",
+		type: "item",
+		items: [{
+			item: "tetra:geode"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "8e4476ed",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 8
+	}]
+}

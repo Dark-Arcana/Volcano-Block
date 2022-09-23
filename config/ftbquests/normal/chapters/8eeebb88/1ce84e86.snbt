@@ -1,0 +1,20 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	dependencies: [
+		"93dd52eb"
+	],
+	tasks: [{
+		uid: "9696b391",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "74f12e69",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 4
+	}]
+}

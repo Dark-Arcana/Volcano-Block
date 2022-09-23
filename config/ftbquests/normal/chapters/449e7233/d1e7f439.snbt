@@ -1,0 +1,36 @@
+{
+	title: "Primitive Tools",
+	icon: "minecraft:stone_pickaxe",
+	x: 5.0d,
+	y: -1.0d,
+	text: [
+		"Finally! Some real tools!"
+	],
+	dependencies: [
+		"ea2ee723"
+	],
+	tasks: [{
+		uid: "cc91b346",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3322769",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86fd471f",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	}]
+}

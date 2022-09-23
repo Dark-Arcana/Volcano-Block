@@ -1,0 +1,38 @@
+{
+	x: -7.0d,
+	y: 1.0d,
+	text: [
+		"Become the Klingon Gelo Master"
+	],
+	tasks: [{
+		uid: "b838018b",
+		type: "item",
+		items: [{
+			item: "vanillafoodpantry:gelo 1 393"
+		}],
+		count: 20000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0106192d",
+		type: "command",
+		title: "Klingon Gelo Trophy",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 240,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "vanillafoodpantry:gelo",
+					Count: 1b,
+					Damage: 393s
+				},
+				TrophyColorBlue: 44,
+				TrophyName: "Klingon Gelo Master",
+				TrophyColorRed: 50,
+				TrophyEarnedAt: 1560113499L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"vanillafoodpantry:gelo\",Count:1b,Damage:393s},  TrophyName:\"Klingon Gelo Master\",  TrophyColorRed:50,  TrophyColorGreen:240,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

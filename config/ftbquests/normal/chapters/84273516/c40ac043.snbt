@@ -1,0 +1,43 @@
+{
+	title: "Fusion Reactor",
+	icon: "alchemistry:fusion_controller",
+	x: -5.0d,
+	y: -3.0d,
+	text: [
+		"See the Alchemistry guidebook for more information on how to construct this multiblock"
+	],
+	tasks: [{
+		uid: "6ec75d72",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_casing"
+		}],
+		count: 98L
+	},
+	{
+		uid: "363bb8e8",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_core"
+		}],
+		count: 3L
+	},
+	{
+		uid: "1be1cd78",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "90ab9533",
+		type: "item",
+		item: {
+			id: "integrateddynamics:energy_battery",
+			tag: {
+				capacity: 4000000,
+				energy: 4000000
+			}
+		}
+	}]
+}

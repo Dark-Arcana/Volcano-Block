@@ -1,0 +1,98 @@
+{
+	x: -13.0d,
+	y: -3.0d,
+	dependencies: [
+		"27cc0dcd"
+	],
+	tasks: [{
+		uid: "7e19b9b0",
+		type: "item",
+		items: [{
+			id: "bdsandm:wood_crate",
+			tag: {
+				crateCap: {
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					stackCap: 64,
+					maxCap: 1024,
+					oreDict: 0b,
+					overflow: 0b,
+					locked: 0b,
+					objColors: [I;
+						-1,
+						-1
+					]
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					stackCap: 64,
+					maxCap: 1024,
+					oreDict: 0b,
+					overflow: 0b,
+					locked: 0b,
+					objColors: [I;
+						-1,
+						-1
+					]
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f5d63fc4",
+		type: "item",
+		item: {
+			id: "bdsandm:wood_crate",
+			tag: {
+				crateCap: {
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					stackCap: 64,
+					maxCap: 1024,
+					oreDict: 0b,
+					overflow: 0b,
+					locked: 0b,
+					objColors: [I;
+						-1,
+						-1
+					]
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					stackCap: 64,
+					maxCap: 1024,
+					oreDict: 0b,
+					overflow: 0b,
+					locked: 0b,
+					objColors: [I;
+						-1,
+						-1
+					]
+				}
+			}
+		}
+	}]
+}

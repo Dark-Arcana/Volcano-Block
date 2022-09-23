@@ -1,0 +1,44 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	text: [
+		"Integrated Dynamics provides you with a more comprehensive option for accessing your entire inventory in one place as well as transferring fluids, items, and energy"
+	],
+	dependencies: [
+		"53c42ac2"
+	],
+	tasks: [{
+		uid: "dbf0804c",
+		type: "item",
+		items: [{
+			item: "integratedterminals:part_terminal_storage_item"
+		}]
+	}],
+	rewards: [{
+		uid: "282f5a1d",
+		type: "item",
+		item: "integrateddynamics:cable",
+		count: 16
+	},
+	{
+		uid: "3c3524e5",
+		type: "item",
+		item: "integratedtunnels:part_interface_item_item",
+		count: 4
+	},
+	{
+		uid: "1f870ed6",
+		type: "item",
+		item: "integrateddynamics:wrench"
+	},
+	{
+		uid: "b6230349",
+		type: "item",
+		item: "integrateddynamics:on_the_dynamics_of_integration"
+	},
+	{
+		uid: "329a1c40",
+		type: "item",
+		item: "structuredcrafting:structured_crafter"
+	}]
+}

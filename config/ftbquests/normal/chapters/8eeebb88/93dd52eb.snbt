@@ -1,0 +1,24 @@
+{
+	title: "Your first power flower",
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"97d34d31",
+		"dc2b3adc"
+	],
+	tasks: [{
+		uid: "157c99f1",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6a26193d",
+		type: "choice",
+		table: 1
+	}]
+}

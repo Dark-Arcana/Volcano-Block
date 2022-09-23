@@ -1,0 +1,15 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	text: [
+		"At this point, if you are having trouble getting sticks, you can make heavy shears, harvest grass plants with them, and craft them into sticks"
+	],
+	dependencies: [
+		"7738f187"
+	],
+	tasks: [{
+		uid: "092b5bc4",
+		type: "checkmark",
+		title: "Easier Sticks"
+	}]
+}

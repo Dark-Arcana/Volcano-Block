@@ -1,0 +1,38 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	text: [
+		"Become the Golem Master"
+	],
+	tasks: [{
+		uid: "8bc328e4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fond_memories"
+		}],
+		count: 20000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6fb98013",
+		type: "command",
+		title: "Golem Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 150,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:golem_corpse",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 40,
+				TrophyName: "Golem Master",
+				TrophyColorRed: 150,
+				TrophyEarnedAt: 1560113830L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:golem_corpse\",Count:1b,Damage:0s},  TrophyName:\"Golem Master\",  TrophyColorRed:150,  TrophyColorGreen:150,  TrophyColorBlue:40,  TrophyVariant:\"classic\"}"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"f36a435a"
+	],
+	tasks: [{
+		uid: "a2467176",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f57e404",
+		type: "item",
+		item: "evilcraft:condensed_blood"
+	},
+	{
+		uid: "92be7545",
+		type: "item",
+		item: {
+			id: "evilcraft:dark_tank",
+			tag: {
+				capacity: 16000
+			}
+		}
+	}]
+}

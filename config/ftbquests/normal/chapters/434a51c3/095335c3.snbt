@@ -1,0 +1,32 @@
+{
+	x: -11.0d,
+	y: -2.0d,
+	text: [
+		"We will use this summoner to control the essence of these creatures"
+	],
+	dependencies: [
+		"e36de295"
+	],
+	tasks: [{
+		uid: "e5a0a376",
+		type: "item",
+		items: [{
+			item: "soulus:summoner"
+		}]
+	}],
+	rewards: [{
+		uid: "b2483642",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "7dab0b27",
+		type: "item",
+		item: {
+			id: "evilcraft:dark_tank",
+			tag: {
+				capacity: 16000
+			}
+		}
+	}]
+}

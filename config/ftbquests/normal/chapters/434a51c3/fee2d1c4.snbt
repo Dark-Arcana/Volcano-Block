@@ -1,0 +1,36 @@
+{
+	icon: {
+		id: "evilcraft:blood_infuser",
+		tag: {}
+	},
+	x: -8.0d,
+	y: 0.0d,
+	text: [
+		"See your Origins of Darkness book for more information"
+	],
+	dependencies: [
+		"db088cac",
+		"4ab29233"
+	],
+	tasks: [{
+		uid: "8d87c85b",
+		type: "item",
+		items: [{
+			id: "evilcraft:blood_infuser",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4ed05a8",
+		type: "item",
+		item: "evilcraft:blood_potash",
+		count: 10
+	},
+	{
+		uid: "7920511f",
+		type: "choice",
+		table: 0
+	}]
+}

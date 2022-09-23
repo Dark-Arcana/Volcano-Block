@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"Breaking grass (plants, not blocks) will occasionally drop sticks"
+	],
+	dependencies: [
+		"92db2149"
+	],
+	tasks: [{
+		uid: "96787806",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d44198b7",
+		type: "item",
+		item: "prodigytech:meat_patty",
+		count: 3
+	}]
+}

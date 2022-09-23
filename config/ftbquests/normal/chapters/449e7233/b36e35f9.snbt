@@ -1,0 +1,25 @@
+{
+	title: "Detcord",
+	x: 11.0d,
+	y: -1.0d,
+	text: [
+		"Harvest the instabilis plant with your shears to acquire detcord"
+	],
+	dependencies: [
+		"c57544b7"
+	],
+	tasks: [{
+		uid: "89b668de",
+		type: "item",
+		items: [{
+			item: "uniquecrops:democord"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3d856d70",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

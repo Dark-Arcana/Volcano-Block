@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	dependencies: [
+		"dd052489"
+	],
+	tasks: [{
+		uid: "ada035f8",
+		type: "item",
+		items: [{
+			item: "evilcraft:blood_infusion_core"
+		}]
+	}],
+	rewards: [{
+		uid: "fe5615d7",
+		type: "choice",
+		table: 0
+	}]
+}

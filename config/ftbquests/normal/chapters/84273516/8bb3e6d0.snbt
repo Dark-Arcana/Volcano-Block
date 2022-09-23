@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: -4.0d,
+	text: [
+		"Can be acquired in any of the following ways:",
+		"",
+		"1. The vanilla way, please don't do this even remotely near your base if you do",
+		"2. Calculator - Analysing Chamber",
+		"3. Alchemistry - Chemical Combiner"
+	],
+	tasks: [{
+		uid: "15b4c5a6",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}]
+}

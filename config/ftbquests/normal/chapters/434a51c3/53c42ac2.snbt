@@ -1,0 +1,21 @@
+{
+	x: -6.0d,
+	y: 2.0d,
+	description: "A pretty, magical tree",
+	dependencies: [
+		"1f282842"
+	],
+	tasks: [{
+		uid: "3a7ec136",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:menril_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "60ef5854",
+		type: "item",
+		item: "integrateddynamics:menril_sapling",
+		count: 4
+	}]
+}

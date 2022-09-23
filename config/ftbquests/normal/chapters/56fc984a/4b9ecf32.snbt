@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"Read your Prodigy Tech guidebook for more information"
+	],
+	dependencies: [
+		"85a0ee86"
+	],
+	tasks: [{
+		uid: "0ef4916d",
+		type: "item",
+		items: [{
+			item: "prodigytech:atomic_reshaper"
+		}]
+	}],
+	rewards: [{
+		uid: "1585e1dc",
+		type: "item",
+		item: "bdsandm:upgrade 1 2"
+	}]
+}

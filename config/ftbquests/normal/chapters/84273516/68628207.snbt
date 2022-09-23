@@ -1,0 +1,19 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	text: [
+		"See the Alchemistry guidebook for more information on how to operate this machine"
+	],
+	tasks: [{
+		uid: "8468961d",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_combiner"
+		}]
+	}],
+	rewards: [{
+		uid: "e0d13810",
+		type: "item",
+		item: "speedyhoppers:speedyhopper_mk3"
+	}]
+}

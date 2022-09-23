@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	text: [
+		"Cast your golden rod out into the lava and occasionally you will get blaze rods"
+	],
+	dependencies: [
+		"3fdea58c"
+	],
+	tasks: [{
+		uid: "49568038",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a86644e7",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

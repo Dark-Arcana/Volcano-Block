@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"10aeef5a"
+	],
+	tasks: [{
+		uid: "e8de5983",
+		type: "item",
+		items: [{
+			item: "uniquecrops:generic 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "db746d28",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

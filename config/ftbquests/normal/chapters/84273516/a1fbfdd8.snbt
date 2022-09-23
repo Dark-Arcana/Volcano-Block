@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"da9f45eb"
+	],
+	tasks: [{
+		uid: "32970f57",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pharaoh_heart"
+		}]
+	}]
+}

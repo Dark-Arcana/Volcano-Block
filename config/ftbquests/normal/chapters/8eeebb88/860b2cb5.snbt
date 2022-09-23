@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	description: "Consider using the planks of this tree for decoration",
+	dependencies: [
+		"c3ca4643"
+	],
+	tasks: [{
+		uid: "375db265",
+		type: "item",
+		items: [{
+			item: "forbidden_arcanus:cherrywood_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "184377ea",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

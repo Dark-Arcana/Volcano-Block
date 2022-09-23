@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	dependencies: [
+		"1ce84e86",
+		"9fb427f6"
+	],
+	tasks: [{
+		uid: "d6b95bb3",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "d301bb05",
+		type: "item",
+		item: "morecharcoal:chorus_charcoal_block",
+		count: 16
+	}]
+}

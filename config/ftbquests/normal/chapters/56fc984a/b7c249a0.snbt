@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"JEI is your best friend"
+	],
+	dependencies: [
+		"bc2a75c7"
+	],
+	tasks: [{
+		uid: "dc4a3a2b",
+		type: "item",
+		items: [{
+			item: "prodigytech:circuit_refined"
+		}]
+	}],
+	rewards: [{
+		uid: "7d0e0d82",
+		type: "item",
+		item: "minecraft:iron_chestplate"
+	}]
+}

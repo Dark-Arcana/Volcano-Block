@@ -1,0 +1,20 @@
+{
+	x: -12.0d,
+	y: 1.0d,
+	dependencies: [
+		"f13e07d0"
+	],
+	tasks: [{
+		uid: "6d4bacaa",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "34fa9d37",
+		type: "xp_levels",
+		xp_levels: 4
+	}]
+}

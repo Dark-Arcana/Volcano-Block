@@ -1,0 +1,31 @@
+{
+	title: "So it begins...",
+	icon: "cannibalism:playerflesh",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"I'm stuck here with nothing but this book and this knife. Desperate times call for desperate measures, I guess. Now, what's that organ called that you don't need again? Was it the appendix? Or maybe the pancreas?"
+	],
+	tasks: [{
+		uid: "2251638b",
+		type: "item",
+		items: [{
+			item: "cannibalism:playerflesh"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d335fa4f",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 15"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "b6185304",
+		type: "item",
+		item: "vanillafoodpantry:kebab 1 1",
+		count: 3
+	}]
+}

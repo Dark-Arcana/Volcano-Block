@@ -1,0 +1,14 @@
+{
+	x: -10.0d,
+	y: -5.0d,
+	text: [
+		"See the Alchemistry guidebook for more information on how to operate this machine"
+	],
+	tasks: [{
+		uid: "49cd3a2a",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_dissolver"
+		}]
+	}]
+}

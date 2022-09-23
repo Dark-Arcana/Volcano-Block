@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"99beed84"
+	],
+	tasks: [{
+		uid: "5f0cf382",
+		type: "item",
+		items: [{
+			item: "calculator:tanzanitesapling"
+		}]
+	}],
+	rewards: [{
+		uid: "9ee30895",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Baked Potatoes",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"Toss the potatoes in the lava for a quick swim"
+	],
+	dependencies: [
+		"462a567c"
+	],
+	tasks: [{
+		uid: "6300664d",
+		type: "item",
+		items: [{
+			item: "minecraft:baked_potato"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3623b5c9",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

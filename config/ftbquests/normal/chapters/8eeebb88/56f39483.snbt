@@ -1,0 +1,21 @@
+{
+	x: 13.0d,
+	y: 3.0d,
+	dependencies: [
+		"380050cc"
+	],
+	tasks: [{
+		uid: "7e328ea3",
+		type: "item",
+		items: [{
+			item: "soulus:block_endersteel_dark"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "e2e1afc9",
+		type: "item",
+		item: "soulus:bone_ender",
+		count: 8
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "6d374f81",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c41a89f",
+		type: "choice",
+		table: 1
+	}]
+}

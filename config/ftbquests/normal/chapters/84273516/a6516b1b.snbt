@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	description: "The true heart of the volcano",
+	dependencies: [
+		"f0ec686e"
+	],
+	tasks: [{
+		uid: "bcb50dbc",
+		type: "item",
+		items: [{
+			item: "uniquecrops:darkblock"
+		}]
+	}],
+	rewards: [{
+		uid: "7208d844",
+		type: "xp",
+		xp: 1
+	}]
+}

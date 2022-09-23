@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	description: "From the primordial ooze, everything emerges",
+	dependencies: [
+		"0742209d"
+	],
+	tasks: [{
+		uid: "4a77d694",
+		type: "item",
+		items: [{
+			item: "prodigytech:primordium"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7655fd3d",
+		type: "item",
+		item: "minecraft:wheat",
+		count: 32
+	}]
+}

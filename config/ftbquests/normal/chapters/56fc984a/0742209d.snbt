@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"Read your Prodigy Tech guidebook for more information"
+	],
+	dependencies: [
+		"39367a60"
+	],
+	tasks: [{
+		uid: "be34b46f",
+		type: "item",
+		items: [{
+			item: "prodigytech:primordialis_reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "7846d059",
+		type: "item",
+		item: "minecraft:carrot",
+		count: 16
+	}]
+}

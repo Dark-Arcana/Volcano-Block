@@ -1,0 +1,22 @@
+{
+	title: "Magical clay",
+	x: 12.0d,
+	y: -2.0d,
+	dependencies: [
+		"46ec9856"
+	],
+	tasks: [{
+		uid: "d21246ea",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pink_composite_dust"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "48098e05",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 5
+	}]
+}

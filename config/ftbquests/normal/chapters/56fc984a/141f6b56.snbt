@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"The ash needed to craft this can be created by putting *anything* in the Incinerator"
+	],
+	dependencies: [
+		"96556531"
+	],
+	tasks: [{
+		uid: "86eacfb3",
+		type: "item",
+		items: [{
+			item: "prodigytech:inferno_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "e065a355",
+		type: "item",
+		item: "vanillafoodpantry:lava_sand_portion",
+		count: 16
+	}]
+}

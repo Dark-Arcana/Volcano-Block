@@ -1,0 +1,25 @@
+{
+	title: "Shimmering Mushrooms",
+	x: 7.0d,
+	y: 3.0d,
+	description: "Flower petal? Never heard of it",
+	dependencies: [
+		"860b2cb5"
+	],
+	tasks: [{
+		uid: "99c0d1ec",
+		type: "item",
+		items: [{
+			item: "botania:mushroom 1 4"
+		},
+		{
+			item: "botania:mushroom 1 14"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "ce24abcc",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

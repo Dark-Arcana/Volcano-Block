@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"4b853356"
+	],
+	tasks: [{
+		uid: "8a7a8bc1",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "9748742e",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
+	}]
+}

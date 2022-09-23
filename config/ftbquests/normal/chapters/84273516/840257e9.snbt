@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	text: [
+		"The soul of the sprite guardian resides in Atum. Only in Atum can it be summoned."
+	],
+	dependencies: [
+		"ff03c3c8"
+	],
+	tasks: [{
+		uid: "032e2d48",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "emberroot:rootsonespriteboss"
+				}
+			}
+		}]
+	}]
+}

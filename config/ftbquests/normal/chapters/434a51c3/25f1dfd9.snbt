@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"To collect the corrupt pixi in a bottle item required to craft the quest objective:",
+		"Place a \"Bottle Block\" (From forbidden & arcanus), then right click it with a corrupt pixi"
+	],
+	dependencies: [
+		"65344a4d"
+	],
+	tasks: [{
+		uid: "1757f950",
+		type: "item",
+		items: [{
+			item: "evilcraft:piercing_vengeance_focus"
+		}]
+	}],
+	rewards: [{
+		uid: "f88d1eb1",
+		type: "choice",
+		table: 1
+	}]
+}

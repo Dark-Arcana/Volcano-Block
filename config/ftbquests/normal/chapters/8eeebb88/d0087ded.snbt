@@ -1,0 +1,21 @@
+{
+	title: "Natron Crystals",
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"d3041fe4"
+	],
+	tasks: [{
+		uid: "f303896e",
+		type: "item",
+		items: [{
+			item: "vanillafoodpantry:natron_crystals"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "44c5091c",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

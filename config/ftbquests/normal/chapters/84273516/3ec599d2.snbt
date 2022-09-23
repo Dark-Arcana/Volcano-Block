@@ -1,0 +1,12 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	description: "Portal to nowhere",
+	tasks: [{
+		uid: "0957c310",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	}]
+}

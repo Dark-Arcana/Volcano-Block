@@ -1,0 +1,23 @@
+{
+	x: -10.0d,
+	y: 0.0d,
+	text: [
+		"Uses blaze powder instead of bonemeal as its fertilizer"
+	],
+	dependencies: [
+		"77ba41e9"
+	],
+	tasks: [{
+		uid: "87c991e2",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedmaryjane"
+		}]
+	}],
+	rewards: [{
+		uid: "add960bd",
+		type: "item",
+		item: "minecraft:blaze_powder",
+		count: 8
+	}]
+}

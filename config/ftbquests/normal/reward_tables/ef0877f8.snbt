@@ -1,0 +1,26 @@
+{
+	title: "soulus",
+	loot_size: 1,
+	rewards: [{
+		item: "soulus:gear_oscillating",
+		count: 2
+	},
+	{
+		item: {
+			id: "soulus:crystal_blood",
+			tag: {
+				contained_blood: 1000
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "soulus:orb_murky",
+			tag: {
+				essence_quantity: 32
+			}
+		},
+		count: 2
+	}]
+}

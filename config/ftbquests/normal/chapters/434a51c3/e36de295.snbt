@@ -1,0 +1,54 @@
+{
+	title: "Fossil Dirt",
+	x: -13.0d,
+	y: 0.0d,
+	text: [
+		"By transforming coarse dirt into these fossils we can gather the materials we need to summon creatures"
+	],
+	dependencies: [
+		"f13e07d0"
+	],
+	tasks: [{
+		uid: "fa93ee27",
+		type: "item",
+		items: [{
+			item: "soulus:fossil_dirt"
+		}]
+	},
+	{
+		uid: "a1a264d7",
+		type: "item",
+		items: [{
+			item: "soulus:fossil_dirt_frozen"
+		}]
+	},
+	{
+		uid: "4e772cb9",
+		type: "item",
+		items: [{
+			item: "soulus:fossil_dirt_fungal"
+		}]
+	},
+	{
+		uid: "2f35a2d9",
+		type: "item",
+		items: [{
+			item: "soulus:fossil_dirt_ender"
+		}]
+	}],
+	rewards: [{
+		uid: "87dc95ef",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "soulus:soulus"
+			}
+		}
+	},
+	{
+		uid: "fe57448a",
+		type: "choice",
+		table: 0
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"247cc66f"
+	],
+	tasks: [{
+		uid: "01c2e495",
+		type: "item",
+		items: [{
+			item: "forbidden_arcanus:arcane_crystal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "fdd746ff",
+		type: "choice",
+		table: 1
+	}]
+}

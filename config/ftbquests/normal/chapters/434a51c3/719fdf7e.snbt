@@ -1,0 +1,27 @@
+{
+	x: -8.0d,
+	y: 3.0d,
+	text: [
+		"See your Ancient Codex (given as a reward a few quests ago) for more information"
+	],
+	dependencies: [
+		"a71ffaaf"
+	],
+	tasks: [{
+		uid: "789c36de",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "7aca2259",
+		type: "item",
+		item: "embers:fluid_gauge"
+	},
+	{
+		uid: "d04c6e82",
+		type: "item",
+		item: "embers:ember_gauge"
+	}]
+}

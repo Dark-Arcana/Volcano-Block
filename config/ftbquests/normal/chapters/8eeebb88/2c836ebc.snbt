@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	dependencies: [
+		"e8cdef9a"
+	],
+	tasks: [{
+		uid: "1a1f12db",
+		type: "item",
+		items: [{
+			item: "hwell:seed_of_the_end"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3151cdd4",
+		type: "item",
+		item: "vanillafoodpantry:steamed_egg",
+		count: 2
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"Become the Livingrock Master"
+	],
+	tasks: [{
+		uid: "562236f6",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 20000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1929adb4",
+		type: "command",
+		title: "Livingrock Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 255,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "botania:livingrock",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "Livingrock Master",
+				TrophyColorRed: 230,
+				TrophyEarnedAt: 1560114145L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"botania:livingrock\",Count:1b,Damage:0s},  TrophyName:\"Livingrock Master\",  TrophyColorRed:230,  TrophyColorGreen:255,  TrophyColorBlue:255,  TrophyVariant:\"classic\"}"
+	}]
+}

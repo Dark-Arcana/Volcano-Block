@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	dependencies: [
+		"d8fc833f"
+	],
+	tasks: [{
+		uid: "7a4efeb4",
+		type: "item",
+		items: [{
+			item: "calculator:electricdiamond"
+		}]
+	}],
+	rewards: [{
+		uid: "9cd2017d",
+		type: "item",
+		item: "calculator:firediamondpickaxe"
+	}]
+}

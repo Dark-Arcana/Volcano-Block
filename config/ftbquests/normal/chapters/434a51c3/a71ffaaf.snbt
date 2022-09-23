@@ -1,0 +1,23 @@
+{
+	x: -9.0d,
+	y: 3.0d,
+	text: [
+		"See your Ancient Codex (given as a reward a few quests ago) for more information"
+	],
+	dependencies: [
+		"ce22cfc7",
+		"a6b4fe65"
+	],
+	tasks: [{
+		uid: "313b65f7",
+		type: "item",
+		items: [{
+			item: "embers:block_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "0048ae1f",
+		type: "item",
+		item: "embers:ember_gauge"
+	}]
+}

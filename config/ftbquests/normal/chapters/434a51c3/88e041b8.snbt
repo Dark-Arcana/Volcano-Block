@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"333c8cb1"
+	],
+	tasks: [{
+		uid: "69e17cd7",
+		type: "item",
+		items: [{
+			item: "calculator:algorithmseparator"
+		}]
+	}],
+	rewards: [{
+		uid: "fc1aa978",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

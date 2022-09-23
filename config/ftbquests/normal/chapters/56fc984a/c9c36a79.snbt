@@ -1,0 +1,30 @@
+{
+	icon: "hwell:core_stone",
+	x: -13.0d,
+	y: -1.0d,
+	text: [
+		"Compressed Clay can be acquired by using a shard of the root of life on a Rock Core. See JEI and/or your Book of the Well for more information"
+	],
+	dependencies: [
+		"10a719e7"
+	],
+	tasks: [{
+		uid: "066e0a94",
+		type: "item",
+		items: [{
+			item: "hwell:core_stone"
+		}]
+	},
+	{
+		uid: "b42b7cad",
+		type: "item",
+		items: [{
+			item: "hwell:compressed_clay"
+		}]
+	}],
+	rewards: [{
+		uid: "1a7e4213",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

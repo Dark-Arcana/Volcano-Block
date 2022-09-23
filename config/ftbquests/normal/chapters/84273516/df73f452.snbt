@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	text: [
+		"The soul of the sprite guardian resides in Atum. Only in Atum can it be summoned."
+	],
+	dependencies: [
+		"840257e9"
+	],
+	tasks: [{
+		uid: "002854e4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sprite_guardian_heart"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	description: "Spooky",
+	dependencies: [
+		"e30b13f3",
+		"e5bd43df",
+		"8bb3e6d0"
+	],
+	tasks: [{
+		uid: "73db1e7b",
+		type: "item",
+		items: [{
+			item: "forbidden_arcanus:dark_nether_star"
+		}]
+	}]
+}

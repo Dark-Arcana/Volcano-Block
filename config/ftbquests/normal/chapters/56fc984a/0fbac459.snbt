@@ -1,0 +1,19 @@
+{
+	x: -10.0d,
+	y: -2.0d,
+	dependencies: [
+		"ab8e4fc6"
+	],
+	tasks: [{
+		uid: "24c14d1f",
+		type: "item",
+		items: [{
+			item: "hwell:mutation_paste_block"
+		}]
+	}],
+	rewards: [{
+		uid: "27dcfdb6",
+		type: "item",
+		item: "minecraft:iron_boots"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -12.0d,
+	y: -1.0d,
+	text: [
+		"The only way to acquire clay at this point is via compressed clay",
+		"",
+		"Once you have your raw asul blocks, you can convert them to asul blocks by placing them underneath a stack of amplifying tubes (between 2 and 8 of them, more is faster)",
+		"",
+		"If it is working, you should see particle effects inside of the amplifying tubes"
+	],
+	dependencies: [
+		"c9c36a79",
+		"310f8bdc"
+	],
+	tasks: [{
+		uid: "2459627b",
+		type: "item",
+		items: [{
+			item: "hwell:asul_block"
+		}]
+	}],
+	rewards: [{
+		uid: "941be872",
+		type: "item",
+		item: "vanillafoodpantry:fudge_portion",
+		count: 2
+	}]
+}

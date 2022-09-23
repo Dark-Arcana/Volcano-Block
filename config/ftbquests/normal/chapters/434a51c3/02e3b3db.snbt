@@ -1,0 +1,20 @@
+{
+	x: -10.0d,
+	y: 4.0d,
+	description: "Leaf-Imbued Metal",
+	dependencies: [
+		"bf53c4ff"
+	],
+	tasks: [{
+		uid: "cad05e2e",
+		type: "item",
+		items: [{
+			item: "prodigytech:zorrasteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5f1bd2ba",
+		type: "item",
+		item: "prodigytech:zorra_altar"
+	}]
+}

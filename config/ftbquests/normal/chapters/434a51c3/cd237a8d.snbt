@@ -1,0 +1,20 @@
+{
+	x: -10.0d,
+	y: 5.0d,
+	description: "Soul-infused metal",
+	dependencies: [
+		"19795197"
+	],
+	tasks: [{
+		uid: "e627e390",
+		type: "item",
+		items: [{
+			item: "hwell:soulsteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b72c1a55",
+		type: "item",
+		item: "hwell:soulsteel_axe"
+	}]
+}

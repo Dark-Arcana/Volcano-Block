@@ -1,0 +1,28 @@
+{
+	title: "Petramia",
+	icon: "uniquecrops:seedpetramia",
+	x: -7.0d,
+	y: -1.0d,
+	text: [
+		"Grow at y:10 or lower, converts obsidian in Volcano Core Blocks. Make sure the plant has enough light"
+	],
+	dependencies: [
+		"3ec599d2"
+	],
+	tasks: [{
+		uid: "03b8709a",
+		type: "item",
+		items: [{
+			item: "uniquecrops:endersnooker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "71d190ad",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedpetramia"
+		}]
+	}]
+}

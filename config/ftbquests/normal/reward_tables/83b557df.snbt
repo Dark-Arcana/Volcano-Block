@@ -1,0 +1,29 @@
+{
+	title: "arcanus",
+	icon: "forbidden_arcanus:arcane_carved_dark_stone_bricks",
+	loot_size: 27,
+	rewards: [{
+		item: "forbidden_arcanus:arcane_base_block",
+		count: 64
+	},
+	{
+		item: "forbidden_arcanus:chiseled_arcane_base_block",
+		count: 64
+	},
+	{
+		item: "forbidden_arcanus:arcane_base_block_pillar",
+		count: 64
+	},
+	{
+		item: "forbidden_arcanus:arcane_carved_dark_stone_bricks",
+		count: 64
+	},
+	{
+		item: "forbidden_arcanus:arcane_dark_stone",
+		count: 64
+	},
+	{
+		item: "forbidden_arcanus:candle_lamp",
+		count: 64
+	}]
+}

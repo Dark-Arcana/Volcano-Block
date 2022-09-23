@@ -1,0 +1,61 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	description: "These seeds will blow your mind",
+	dependencies: [
+		"6279009a"
+	],
+	tasks: [{
+		uid: "6879aa25",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedenderlily"
+		}]
+	}],
+	rewards: [{
+		uid: "cbc7fa3a",
+		type: "item",
+		item: {
+			id: "bdsandm:metal_crate",
+			tag: {
+				crateCap: {
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					stackCap: 64,
+					maxCap: 32768,
+					oreDict: 0b,
+					overflow: 0b,
+					locked: 0b,
+					objColors: [I;
+						-1,
+						-1
+					]
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					stackCap: 64,
+					maxCap: 32768,
+					oreDict: 0b,
+					overflow: 0b,
+					locked: 0b,
+					objColors: [I;
+						-1,
+						-1
+					]
+				}
+			}
+		},
+		count: 2
+	}]
+}

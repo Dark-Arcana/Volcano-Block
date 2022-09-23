@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"Read your Prodigy Tech guidebook for more information"
+	],
+	dependencies: [
+		"141f6b56"
+	],
+	tasks: [{
+		uid: "4f64a4c9",
+		type: "item",
+		items: [{
+			item: "prodigytech:energion_aeroheater"
+		}]
+	}],
+	rewards: [{
+		uid: "8a8d5e07",
+		type: "item",
+		item: "vanillafoodpantry:cheese_sandwich"
+	},
+	{
+		uid: "7471d4a8",
+		type: "item",
+		item: "xencraft:xen_sapling"
+	}]
+}

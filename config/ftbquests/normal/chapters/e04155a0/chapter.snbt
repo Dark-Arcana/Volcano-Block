@@ -1,0 +1,7 @@
+{
+	title: "Automation Challenges",
+	icon: "contenttweaker:golem_corpse",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

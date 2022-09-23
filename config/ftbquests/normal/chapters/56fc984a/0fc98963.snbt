@@ -1,0 +1,31 @@
+{
+	icon: "prodigytech:explosion_furnace",
+	x: -11.0d,
+	y: -4.0d,
+	text: [
+		"Read your Prodigy Tech guidebook for more information"
+	],
+	dependencies: [
+		"b93294c4"
+	],
+	tasks: [{
+		uid: "d2e730f0",
+		type: "item",
+		items: [{
+			item: "prodigytech:explosion_furnace"
+		}]
+	},
+	{
+		uid: "e5012410",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}]
+	}],
+	rewards: [{
+		uid: "7392f6d4",
+		type: "item",
+		item: "minecraft:sand",
+		count: 8
+	}]
+}

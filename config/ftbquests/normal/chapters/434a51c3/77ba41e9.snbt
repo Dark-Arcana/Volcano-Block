@@ -1,0 +1,23 @@
+{
+	x: -11.0d,
+	y: 0.0d,
+	text: [
+		"Requires the user to wear 3-D glasses in order to be seen"
+	],
+	dependencies: [
+		"cc7f1483"
+	],
+	tasks: [{
+		uid: "66a7ec26",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedinvisibilia"
+		}]
+	}],
+	rewards: [{
+		uid: "e3b4a241",
+		type: "item",
+		item: "vanillafoodpantry:fizzydrink 1 388",
+		count: 2
+	}]
+}

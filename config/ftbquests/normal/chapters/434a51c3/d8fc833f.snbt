@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 2.0d,
+	dependencies: [
+		"2de3f683"
+	],
+	tasks: [{
+		uid: "321e5a92",
+		type: "item",
+		items: [{
+			item: "calculator:conductormast"
+		}]
+	}],
+	rewards: [{
+		uid: "58ba7a4d",
+		type: "item",
+		item: "calculator:weatherstation",
+		count: 4
+	}]
+}

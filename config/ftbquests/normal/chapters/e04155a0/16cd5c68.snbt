@@ -1,0 +1,38 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	text: [
+		"Become the Livingwood Master"
+	],
+	tasks: [{
+		uid: "002b88f5",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 20000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6447e623",
+		type: "command",
+		title: "Livingwood Master",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 80,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "botania:livingwood",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 30,
+				TrophyName: "Livingwood Master",
+				TrophyColorRed: 80,
+				TrophyEarnedAt: 1560114208L
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"botania:livingwood\",Count:1b,Damage:0s},  TrophyName:\"Livingwood Master\",  TrophyColorRed:80,  TrophyColorGreen:80,  TrophyColorBlue:30,  TrophyVariant:\"classic\"}"
+	}]
+}

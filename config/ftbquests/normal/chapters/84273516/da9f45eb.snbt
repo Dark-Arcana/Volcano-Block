@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"This scarab serves as the key to Atum, a desert dimension. Create the portal as follows:",
+		"",
+		"1. Create a flat 5x5 base of sandstone",
+		"2. Create a ring of sandstone on top of the previous layer",
+		"3. Stack 2 sandstone on top of each corner of the previous layer",
+		"4. Fill the inside of the ring with water, then toss in the scarab"
+	],
+	dependencies: [
+		"56f29a38",
+		"a6516b1b"
+	],
+	tasks: [{
+		uid: "4a0b2e5b",
+		type: "item",
+		items: [{
+			item: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

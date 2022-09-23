@@ -1,0 +1,22 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	dependencies: [
+		"3de37863",
+		"56f39483",
+		"6153b0db"
+	],
+	tasks: [{
+		uid: "6a435106",
+		type: "item",
+		items: [{
+			item: "soulus:composer_cell"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "feb3916c",
+		type: "choice",
+		table: 0
+	}]
+}

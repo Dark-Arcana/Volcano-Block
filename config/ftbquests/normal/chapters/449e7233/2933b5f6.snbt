@@ -1,0 +1,39 @@
+{
+	icon: "uniquecrops:seedcollis",
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"Collis plants will only grow when at y:103+ and in range of a light source",
+		"",
+		"Break grass (plants, not blocks) to find sugarcane"
+	],
+	dependencies: [
+		"c548cd24"
+	],
+	tasks: [{
+		uid: "23b7aff2",
+		type: "item",
+		items: [{
+			item: "uniquecrops:seedcollis"
+		}]
+	},
+	{
+		uid: "8bc6b7d6",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}]
+	}],
+	rewards: [{
+		uid: "fc1d3f30",
+		type: "item",
+		item: "minecraft:grass",
+		count: 2
+	},
+	{
+		uid: "24649edf",
+		type: "item",
+		item: "speedyladders:stone_ladder",
+		count: 32
+	}]
+}

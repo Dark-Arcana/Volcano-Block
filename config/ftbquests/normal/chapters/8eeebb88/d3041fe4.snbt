@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"6279009a"
+	],
+	tasks: [{
+		uid: "0eb58fe5",
+		type: "item",
+		items: [{
+			item: "alchemistry:evaporator"
+		}]
+	}],
+	rewards: [{
+		uid: "28c865d7",
+		type: "item",
+		item: "vanillafoodpantry:water_bottle 1 4",
+		count: 4
+	}]
+}

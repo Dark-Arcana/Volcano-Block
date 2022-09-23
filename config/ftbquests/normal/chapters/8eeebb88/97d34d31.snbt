@@ -1,0 +1,32 @@
+{
+	icon: "botania:spreader",
+	x: 8.0d,
+	y: 3.0d,
+	dependencies: [
+		"77d39a1b"
+	],
+	tasks: [{
+		uid: "a368861d",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 3,
+				color2: 3
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a535639b",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "39be38c4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	text: [
+		"See your Unique Crops guide for more information"
+	],
+	tasks: [{
+		uid: "3142b5f5",
+		type: "item",
+		items: [{
+			item: "uniquecrops:goblet"
+		}]
+	},
+	{
+		uid: "cc4a952f",
+		type: "item",
+		items: [{
+			item: "uniquecrops:vampiric_ointment"
+		}]
+	}]
+}

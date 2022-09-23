@@ -1,0 +1,22 @@
+{
+	x: -9.0d,
+	y: -4.0d,
+	text: [
+		"Toss a crystal into a nether portal to acquire this"
+	],
+	dependencies: [
+		"b93294c4"
+	],
+	tasks: [{
+		uid: "12057bf9",
+		type: "item",
+		items: [{
+			item: "hwell:crystal_nether"
+		}]
+	}],
+	rewards: [{
+		uid: "e1e8f733",
+		type: "item",
+		item: "speedyhoppers:speedyhopper_mk1"
+	}]
+}

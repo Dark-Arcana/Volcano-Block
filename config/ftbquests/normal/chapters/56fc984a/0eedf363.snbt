@@ -1,0 +1,25 @@
+{
+	icon: "hwell:gravity_block",
+	x: -12.0d,
+	y: -3.0d,
+	text: [
+		"Along with your straw golems, this can be used to automate your farm",
+		"",
+		"You could also use the Hearth Well nourisher to accelerate crop growth"
+	],
+	dependencies: [
+		"a507c4c2"
+	],
+	tasks: [{
+		uid: "1aceecda",
+		type: "item",
+		items: [{
+			item: "hwell:gravity_block"
+		}]
+	}],
+	rewards: [{
+		uid: "798e35cb",
+		type: "item",
+		item: "hwell:tray"
+	}]
+}

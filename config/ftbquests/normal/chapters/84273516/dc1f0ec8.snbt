@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"11283d40",
+		"df73f452",
+		"a1fbfdd8",
+		"bd7a0fe6",
+		"71ae61bb"
+	],
+	tasks: [{
+		uid: "a62b1523",
+		type: "item",
+		items: [{
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 20,
+				TrophyVariant: "classic",
+				TrophyItem: {
+					id: "contenttweaker:volcano",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 30,
+				TrophyName: "Volcano Master",
+				TrophyColorRed: 255,
+				TrophyEarnedAt: 1560226003L
+			}
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	dependencies: [
+		"1ce84e86"
+	],
+	tasks: [{
+		uid: "ba4bacf2",
+		type: "item",
+		items: [{
+			item: "alchemistry:atomizer"
+		}]
+	}],
+	rewards: [{
+		uid: "e024be27",
+		type: "item",
+		item: "alchemistry:liquifier"
+	}]
+}

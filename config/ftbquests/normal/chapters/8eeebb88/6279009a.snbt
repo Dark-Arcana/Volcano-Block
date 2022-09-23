@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	description: "It's made out of what?",
+	dependencies: [
+		"2c836ebc"
+	],
+	tasks: [{
+		uid: "0439e855",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "af2104fa",
+		type: "item",
+		item: "bdsandm:upgrade 1 2"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -8.0d,
+	y: -4.0d,
+	dependencies: [
+		"0692f37e"
+	],
+	tasks: [{
+		uid: "a4fa6a97",
+		type: "item",
+		items: [{
+			item: "hwell:heat_block"
+		}]
+	}],
+	rewards: [{
+		uid: "8409a54a",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 8
+	}]
+}

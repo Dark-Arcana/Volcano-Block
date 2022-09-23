@@ -1,0 +1,18 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"Splitting Radium in the fission reactor will yield Ruthenium"
+	],
+	dependencies: [
+		"6a960688"
+	],
+	tasks: [{
+		uid: "d9e7793f",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 44"
+		}],
+		count: 2L
+	}]
+}
