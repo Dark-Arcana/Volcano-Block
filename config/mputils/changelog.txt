@@ -1,5 +1,11 @@
 =-= Changelog =-=
 
+v1.1.1 - 2022-09-24
+===
+
+Changes/Bugfixes:
+- fixed Grass Block Recipe
+
 v1.1.0 - 2022-09-23
 ===
 
