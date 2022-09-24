@@ -2,7 +2,7 @@
 	x: -16.0d,
 	y: -5.0d,
 	text: [
-		"\"Grown\" with bonemeal. Ignore what the book says about \"special bonemeal\". Regular bonemeal works fine"
+		"\"Grown\" with time meal."
 	],
 	dependencies: [
 		"dd96aec6"
@@ -12,6 +12,13 @@
 		type: "item",
 		items: [{
 			item: "uniquecrops:seedmerlinia"
+		}]
+	},
+	{
+		uid: "56d9a5df",
+		type: "item",
+		items: [{
+			item: "uniquecrops:generic 1 10"
 		}]
 	}],
 	rewards: [{

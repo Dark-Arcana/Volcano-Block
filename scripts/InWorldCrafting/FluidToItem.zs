@@ -39,3 +39,6 @@ recipes.remove(<vanillafoodpantry:foodpowder:15>);
 FluidToItem.transform(<vanillafoodpantry:foodpowder:15>*2,<liquid:water>,[<minecraft:rabbit_hide>,<vanillafoodpantry:heat_portion>,<vanillafoodpantry:drying_agent>],true);
 FluidToItem.transform(<vanillafoodpantry:foodpowder:15>*2,<liquid:water>,[<ore:bone>,<vanillafoodpantry:heat_portion>,<vanillafoodpantry:drying_agent>],true);
 FluidToItem.transform(<vanillafoodpantry:foodpowder:15>,<liquid:water>,[<vanillafoodpantry:small_bone>*3,<vanillafoodpantry:heat_portion>,<vanillafoodpantry:drying_agent>],true);
+
+recipes.remove(<uniquecrops:generic:10>);
+FluidToItem.transform(<uniquecrops:generic:10>*3,<liquid:water>,[<soulus:bone_meal_nether>,<uniquecrops:democord>,<uniquecrops:generic:6>],false);
