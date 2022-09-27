@@ -1,5 +1,16 @@
 =-= Changelog =-=
 
+v1.1.3 - 2022-09-XX
+===
+
+Removed Mods:
+- Inventory Tweaks (thought I removed it after adding Bogo Sorter)
+
+Changes/Bugfixes:
+- added back cactus recipe (was removed from Hearth Well)
+- added a few more quests to showcase some of the newly added mods
+- blacklisted bdsandm from Carry On
+
 v1.1.2 - 2022-09-25
 ===
 

@@ -1,0 +1,38 @@
+{
+	x: -9.0d,
+	y: -5.0d,
+	text: [
+		"Fast and almost lag-free!"
+	],
+	dependencies: [
+		"b93294c4"
+	],
+	tasks: [{
+		uid: "49cfe12c",
+		type: "item",
+		items: [{
+			item: "indlog:item_pipe"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d630d319",
+		type: "item",
+		items: [{
+			item: "indlog:fluid_pipe"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "080f0097",
+		type: "item",
+		item: "indlog:item_pipe",
+		count: 8
+	},
+	{
+		uid: "e7ad1535",
+		type: "item",
+		item: "indlog:fluid_pipe",
+		count: 8
+	}]
+}

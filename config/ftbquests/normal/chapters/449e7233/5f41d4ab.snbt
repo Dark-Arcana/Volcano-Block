@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 1.0d,
+	dependencies: [
+		"d9c1302d"
+	],
+	tasks: [{
+		uid: "826f8531",
+		type: "item",
+		items: [{
+			item: "simplesponge:magmatic_sponge"
+		}]
+	}]
+}

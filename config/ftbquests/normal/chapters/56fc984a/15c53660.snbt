@@ -1,0 +1,15 @@
+{
+	x: -10.0d,
+	y: -6.0d,
+	description: "Transport your stuff with style!",
+	dependencies: [
+		"b93294c4"
+	],
+	tasks: [{
+		uid: "8b5eada0",
+		type: "item",
+		items: [{
+			item: "modularrouters:item_router"
+		}]
+	}]
+}
