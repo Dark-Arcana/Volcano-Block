@@ -1,6 +1,14 @@
 =-= Changelog =-=
 
-v1.1.3 - 2022-09-XX
+v1.1.4 - 2022-09-29
+===
+
+Changes/Bugfixes:
+- added recipe to convert pristine lapis to normal lapis
+- disabled enableHalloweenEffect of Corail Tombstone
+- fixed Empty Orb recipe
+
+v1.1.3 - 2022-09-27
 ===
 
 Removed Mods:

@@ -60,6 +60,13 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
             [null,<evilcraft:dark_gem>,null]
         ]
     ],
+    <evilcraft:blood_orb> : [
+        [
+            [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
+            [<ore:blockGlass>,<ore:ingotIron>,<ore:blockGlass>],
+            [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>]
+        ]
+    ]
 };
 
 for output, listRecipe in mapRecipe {

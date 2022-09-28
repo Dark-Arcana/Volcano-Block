@@ -106,6 +106,13 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
             [<minecraft:egg>,<botania:manaresource:4>,<minecraft:egg>],
             [<contenttweaker:greater_sprite_heart>,<minecraft:egg>,<contenttweaker:greater_sprite_heart>]
         ]
+    ],
+    <minecraft:lapis_block> : [
+        [
+            [<ore:gemLapis>,<ore:gemLapis>,<ore:gemLapis>],
+            [<ore:gemLapis>,<ore:gemLapis>,<ore:gemLapis>],
+            [<ore:gemLapis>,<ore:gemLapis>,<ore:gemLapis>]
+        ]
     ]
 };
 
