@@ -1,5 +1,18 @@
 =-= Changelog =-=
 
+v1.1.5 - 2022-09-30
+===
+
+Added Mods:
+- Multiblocked
+
+Changes/Bugfixes:
+- added mutation paste recipe for lily pads (#142)
+- added custom multiblock to charge soulbooks with embers (#147)
+- changed IL Crafter recipe (#143)
+- tweaked Sender Module recipe (#144)
+- tweaked Vacuum Module recipe (#145)
+
 v1.1.4 - 2022-09-29
 ===
 

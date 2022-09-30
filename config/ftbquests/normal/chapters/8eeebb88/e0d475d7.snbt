@@ -1,0 +1,19 @@
+{
+	x: 17.0d,
+	y: 3.0d,
+	shape: "gear",
+	text: [
+		"The Soul Charger is a custom Multiblock that allows you to charge your Soulus Books with Ember. The Ember is provided through the 5 Copper Cells."
+	],
+	dependencies: [
+		"53cf6707",
+		"f0d2b305"
+	],
+	tasks: [{
+		uid: "93ef4747",
+		type: "item",
+		items: [{
+			item: "volcanoblock:soul_charger"
+		}]
+	}]
+}

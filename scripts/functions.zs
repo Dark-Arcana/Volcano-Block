@@ -147,6 +147,11 @@ function alch(chem as string) as IItemStack {
     return Util.get(chem);
 }
 
+function replaceModuleRecipe(module as IItemStack, recipe as IIngredient[]) {
+    recipes.removeShapeless(module);
+    recipes.addShapeless(module, recipe);
+}
+
 // legacy functions
 
 function disable(input as IItemStack) {

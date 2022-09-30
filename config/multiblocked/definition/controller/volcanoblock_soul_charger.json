@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "location": "volcanoblock:soul_charger",
+  "traits": {
+    "background": "multiblocked:textures/gray_two_slot_gui.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 52,
+        "y": 114,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 106,
+        "y": 114,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "NON_Y_AXIS",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:archaic_tile",
+        "frontTexture": "multiblocked:soul_catalyst_off",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:archaic_tile",
+        "frontTexture": "multiblocked:soul_catalyst_off",
+        "backTexture": "multiblocked:archaic_edge",
+        "leftTexture": "multiblocked:archaic_edge",
+        "rightTexture": "multiblocked:archaic_edge",
+        "type": "gregtech"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:archaic_tile",
+        "frontTexture": "multiblocked:soul_catalyst",
+        "backTexture": "multiblocked:archaic_light_side",
+        "leftTexture": "multiblocked:archaic_light_side",
+        "rightTexture": "multiblocked:archaic_light_side",
+        "upTexture": "multiblocked:archaic_light_top",
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "BCB",
+        "DGD"
+      ],
+      [
+        "AFA",
+        " @ ",
+        "GGG"
+      ],
+      [
+        "AAA",
+        "BCB",
+        "DGD"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "soulus:block_endersteel_dark",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "volcanoblock:soul_charger",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "forbidden_arcanus:arcane_base_block_wall",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "forbidden_arcanus:arcane_base_block_slab",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "embers:block_dawnstone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "embers:copper_cell",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

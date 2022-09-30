@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	dependencies: [
+		"dc2b3adc"
+	],
+	tasks: [{
+		uid: "8d1a3ae0",
+		type: "item",
+		items: [{
+			item: "indlog:auto_craft"
+		}]
+	}]
+}

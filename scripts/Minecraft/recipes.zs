@@ -80,6 +80,12 @@ recipes.addShaped(<minecraft:cactus>, [
     [<hwell:mutation_paste>]
 ]);
 
+recipes.addShaped(<minecraft:waterlily>, [
+    [<hwell:mutation_paste>],
+    [<minecraft:reeds>],
+    [<hwell:mutation_paste>]
+]);
+
 var mapRecipe as IIngredient[][][][IItemStack] = {
     <minecraft:wooden_hoe> : [
         [
