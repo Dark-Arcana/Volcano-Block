@@ -19,17 +19,10 @@ import scripts.functions.getBucketDefault;
 import scripts.functions.findFirstItemFromMod;
 
 var mapRecipe as IIngredient[][][][IItemStack] = {
-    <bdsandm:wood_crate> : [
-        [
-            [<ore:logWood>,<ore:plankWood>,<ore:logWood>],
-            [<ore:plankWood>,<minecraft:chest>,<ore:plankWood>],
-            [<ore:logWood>,<ore:plankWood>,<ore:logWood>]
-        ]
-    ],
-    <bdsandm:upgrade:6> : [
+    <storagedrawers:upgrade_void> : [
         [
             [<ore:cobblestone>],
-            [<minecraft:item_frame>],
+            [<storagedrawers:upgrade_template>],
             [<minecraft:lava_bucket>]
         ]
     ]

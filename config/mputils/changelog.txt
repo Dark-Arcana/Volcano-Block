@@ -1,5 +1,16 @@
 =-= Changelog =-=
 
+v1.1.6 - 2022-10-04
+===
+
+Updated Mods:
+- Multiblocked
+
+Changes/Bugfixes:
+- added quest to point out the emergency button (#150)
+- changed the recipe of the void upgrade for storage drawers (#149)
+- fixed multiblocked server crash (#148)
+
 v1.1.5 - 2022-09-30
 ===
 

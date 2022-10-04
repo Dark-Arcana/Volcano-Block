@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"In the top left corner of your screen is an \"Emergency Button\" you can use if you die in the lava an lose the basics Items to get started in the modpack. I hope this helps. :3"
+	],
+	tasks: [{
+		uid: "d859bf86",
+		type: "checkmark",
+		title: "Emergency Items"
+	}],
+	rewards: [{
+		uid: "066fdbc8",
+		type: "item",
+		item: {
+			id: "vanillafoodpantry:decker",
+			Damage: 5s,
+			tag: {
+				_Hord_Instructions: {
+					XFood: 1b,
+					FoodTotal: 22,
+					FoodPortion: 5,
+					FoodSaturation: 0.67272735f,
+					UiTip: "Cheesy Batty Burger!
+Egg-Stuffed Roll
+SPaM an' Egg Sandwich"
+				},
+				SAMPLE: 1b
+			}
+		}
+	}]
+}
