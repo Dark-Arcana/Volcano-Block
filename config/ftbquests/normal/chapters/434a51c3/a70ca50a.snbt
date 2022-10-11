@@ -10,7 +10,7 @@
 		items: [{
 			item: "forbidden_arcanus:arcane_crystal"
 		}],
-		count: 4L
+		count: 6L
 	}],
 	rewards: [{
 		uid: "fdd746ff",

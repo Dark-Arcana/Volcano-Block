@@ -54,4 +54,6 @@ FireCrafting.addRecipe(<morecharcoal:sugarcane_charcoal>,<minecraft:reeds>);
 
 FireCrafting.addRecipe(<soulus:bone_meal_nether>,<minecraft:dye:15>);
 
+FireCrafting.addRecipe(<buildingblocks:morestones3>,<minecraft:netherrack>);
+
 FireCrafting.addRecipe(<tetra:geode>,<uniquecrops:oldcobble>);

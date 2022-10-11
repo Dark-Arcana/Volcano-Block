@@ -80,6 +80,18 @@ recipes.addShaped(<minecraft:cactus>, [
     [<hwell:mutation_paste>]
 ]);
 
+recipes.addShaped(<minecraft:red_mushroom>, [
+    [<hwell:mutation_paste>,null],
+    [null,<hwell:mutation_paste>],
+    [<ore:treeSapling>,null]
+]);
+
+recipes.addShaped(<minecraft:brown_mushroom>, [
+    [null,<hwell:mutation_paste>],
+    [<hwell:mutation_paste>,null],
+    [null,<ore:treeSapling>]
+]);
+
 recipes.addShaped(<minecraft:waterlily>, [
     [<hwell:mutation_paste>],
     [<minecraft:reeds>],

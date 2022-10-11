@@ -1,5 +1,19 @@
 =-= Changelog =-=
 
+v1.1.7 - 2022-10-11
+===
+
+Added Mods:
+- Just Build It
+- Yet Another Recipe Conflict Fixer (YARCF)
+
+Changes/Bugfixes:
+- added recipe for minecraft mushrooms (#155)
+- added recipes for Just Build It stones
+- changed Arcane Buidling Block recipes
+- changed Edelwood Log recipe (#154)
+- tweaked required crystal amount for quest in chapter 3 (#153)
+
 v1.1.6 - 2022-10-04
 ===
 

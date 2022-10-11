@@ -26,6 +26,8 @@ FluidToItem.transform(<clickmachine:auto_clicker>,<liquid:liquid_souls>, [<minec
 
 FluidToItem.transform(<contenttweaker:raw_pink_composite>, <liquid:water>, [<contenttweaker:pink_composite_dust>], true);
 
+FluidToItem.transform(<buildingblocks:morestones:6>, <liquid:water>, [<atum:limestone>], false);
+
 FluidToItem.transform(<forbidden_arcanus:runestone>,<liquid:liquid_souls>, [<uniquecrops:oldgravel>],true);
 
 FluidToItem.transform(<integrateddynamics:menril_sapling>,<liquid:liquid_souls>, [<evilcraft:undead_sapling>],true);

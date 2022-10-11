@@ -54,6 +54,13 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
             [<alchemistry:ingot:44>,<forbidden_arcanus:obsidian_ingot>,<contenttweaker:cadmium_block>]
         ]
     ],
+    <forbidden_arcanus:edelwood_log> : [
+        [
+            [<forbidden_arcanus:arcane_crystal_dust>,<ore:soulSand>,<forbidden_arcanus:arcane_crystal_dust>],
+            [<ore:soulSand>,<ore:logWood>,<ore:soulSand>],
+            [<forbidden_arcanus:arcane_crystal_dust>,<ore:soulSand>,<forbidden_arcanus:arcane_crystal_dust>]
+        ]
+    ]
 };
 
 for output, listRecipe in mapRecipe {
@@ -75,3 +82,45 @@ recipes.replaceAllOccurences(<minecraft:bone>,<ore:bone>,<forbidden_arcanus:bone
 recipes.replaceAllOccurences(<minecraft:bone>,<ore:bone>,<forbidden_arcanus:bone_hoe>);
 recipes.replaceAllOccurences(<minecraft:bone>,<ore:bone>,<forbidden_arcanus:bone_axe>);
 recipes.replaceAllOccurences(<minecraft:bone>,<ore:bone>,<forbidden_arcanus:battle_skull>);
+
+
+var listIngot as int[IIngredient] = {
+    <ore:ingotAluminum> : 4,
+    <ore:ingotTin> : 4,
+    <ore:ingotSilver> : 4,
+    <ore:ingotLead> : 4,
+    <ore:ingotNickel> : 4,
+    <ore:ingotCopper> : 8,
+    <ore:ingotBronze> : 16,
+    <ore:ingotDawnstone> : 32,
+    <forbidden_arcanus:arcane_gold_ingot> : 64
+};
+
+recipes.remove(<forbidden_arcanus:arcane_base_block>);
+recipes.remove(<forbidden_arcanus:arcane_dark_stone>);
+recipes.remove(<forbidden_arcanus:arcane_carved_dark_stone_bricks>);
+recipes.remove(<forbidden_arcanus:arcane_edelwood_planks>);
+
+for metal, amount in listIngot {
+    var half as int = amount / 2;
+    recipes.addShaped(<forbidden_arcanus:arcane_base_block> * amount, [
+        [null,<forbidden_arcanus:dark_stone>,null],
+        [<forbidden_arcanus:dark_stone>,metal,<forbidden_arcanus:dark_stone>],
+        [null,<forbidden_arcanus:dark_stone>,null]
+    ]);
+    recipes.addShaped(<forbidden_arcanus:arcane_dark_stone> * half, [
+        [<forbidden_arcanus:dark_stone>,<forbidden_arcanus:dark_stone>,<forbidden_arcanus:dark_stone>],
+        [<forbidden_arcanus:dark_stone>,metal,<forbidden_arcanus:dark_stone>],
+        [<forbidden_arcanus:dark_stone>,<forbidden_arcanus:dark_stone>,<forbidden_arcanus:dark_stone>]
+    ]);
+    recipes.addShaped(<forbidden_arcanus:arcane_carved_dark_stone_bricks> * half, [
+        [null,<forbidden_arcanus:carved_dark_stone_bricks>,null],
+        [<forbidden_arcanus:carved_dark_stone_bricks>,metal,<forbidden_arcanus:carved_dark_stone_bricks>],
+        [null,<forbidden_arcanus:carved_dark_stone_bricks>,null]
+    ]);
+    recipes.addShaped(<forbidden_arcanus:arcane_edelwood_planks> * half, [
+        [<forbidden_arcanus:edelwood_planks>,<forbidden_arcanus:edelwood_planks>,<forbidden_arcanus:edelwood_planks>],
+        [<forbidden_arcanus:edelwood_planks>,metal,<forbidden_arcanus:edelwood_planks>],
+        [<forbidden_arcanus:edelwood_planks>,<forbidden_arcanus:edelwood_planks>,<forbidden_arcanus:edelwood_planks>]
+    ]);
+}
