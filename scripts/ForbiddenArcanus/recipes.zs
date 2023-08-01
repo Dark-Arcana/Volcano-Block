@@ -26,6 +26,10 @@ disable(<forbidden_arcanus:seed_bullet>);
 <forbidden_arcanus:runic_tenebris_core>.addTooltip("Right-click a Runic Tenebris Frame with a Dark Nether Star to create this");
 <forbidden_arcanus:dark_rune>.addTooltip("To acquire: Right-click a Runic Tenebris Core with a rune");
 
+recipes.remove(<forbidden_arcanus:edelwood_planks>);
+recipes.remove(<forbidden_arcanus:cherrywood_planks>);
+recipes.remove(<forbidden_arcanus:mysterywood_planks>);
+
 recipes.remove(<forbidden_arcanus:dark_soul>);
 recipes.addShapeless(<forbidden_arcanus:dark_soul>, [
     <forbidden_arcanus:soul>,

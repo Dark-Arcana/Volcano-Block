@@ -1,5 +1,56 @@
 =-= Changelog =-=
 
+v1.1.8 - 2023-08-01
+===
+
+Added Mods:
+- Botania Tweaks
+- Hesperus
+- Morechids
+- OAuth
+- PipeBlocker
+- Sledgehammer
+- Spark
+- Startup Timer
+- Universal Tweaks
+
+Updated Mods:
+- ArchitectureCraft
+- Athenaeum
+- Cannibalism
+- Carry On
+- CensoredASM
+- Controlling
+- Corail Tombstone
+- CraftTweaker
+- Had Enough Items
+- Inventory Bogo Sorter
+- Just Enough Resources
+- MixinBooter
+- ModularUI
+- Multiblocked
+- Placebo
+- Simple Sponge
+- Storage Drawers
+
+Removed Mods:
+- Bow Infinity Fix (replaced by Universal Tweaks)
+- Ding (replaced by Universal Tweaks)
+- Fast Leaf Decay (replaced by Universal Tweaks)
+- Fence Jumper (replaced by Universal Tweaks)
+- No Recipe Book (replaced by Universal Tweaks)
+- Phosphor (replaced by Hesperus)
+- ReAuth (replaced by OAuth)
+- Toast Control (replaced by Universal Tweaks)
+
+Changes/Bugfixes:
+- fixed Elven Gateway quest duplicate (#165)
+- fixed Fusion Reactor quest (#167)
+- fixed Greater Sprite drops in SMP (#166)
+- fixed Mana Steel recipe (#161)
+- fixed Repair Paste bug (#162)
+- removed Inspirations Collector (#168)
+
 v1.1.7 - 2022-10-11
 ===
 
@@ -10,7 +61,7 @@ Added Mods:
 Changes/Bugfixes:
 - added recipe for minecraft mushrooms (#155)
 - added recipes for Just Build It stones
-- changed Arcane Buidling Block recipes
+- changed Arcane Building Block recipes
 - changed Edelwood Log recipe (#154)
 - tweaked required crystal amount for quest in chapter 3 (#153)
 

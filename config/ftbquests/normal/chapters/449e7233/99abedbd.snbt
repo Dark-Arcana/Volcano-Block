@@ -5,7 +5,7 @@
 	x: 1.0d,
 	y: -3.0d,
 	shape: "rsquare",
-	custom_click: "https://www.akliz.net/al132",
+	custom_click: "https://www.akliz.net/enderman",
 	tasks: [{
 		uid: "e91e889e",
 		type: "dimension",

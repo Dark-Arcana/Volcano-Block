@@ -1,1 +1,14 @@
-[]
+[
+    {
+      "mob": "atum:pharaoh",
+      "item": "contenttweaker:pharaoh_heart"
+    },
+    {
+      "mob": "emberroot:rootsonespriteboss",
+      "item": "contenttweaker:sprite_guardian_heart"
+    },
+    {
+      "mob": "emberroot:rootsonespritegreater",
+      "item": "contenttweaker:greater_sprite_heart"
+    }
+]

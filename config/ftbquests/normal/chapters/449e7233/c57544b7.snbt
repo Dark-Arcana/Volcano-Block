@@ -2,11 +2,6 @@
 	icon: "uniquecrops:seedinstabilis",
 	x: 10.0d,
 	y: -1.0d,
-	text: [
-		"Contrary to what the guidebook says, this plant will grow on its own as long as you use bonemeal",
-		"",
-		"Remember, if this crop isn't growing make sure it has enough light."
-	],
 	dependencies: [
 		"c23c0592"
 	],

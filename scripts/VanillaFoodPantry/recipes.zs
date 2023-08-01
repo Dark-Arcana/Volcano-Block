@@ -19,6 +19,7 @@ import scripts.functions.getBucketDefault;
 import scripts.functions.findFirstItemFromMod;
 
 recipes.addShapeless(<vanillafoodpantry:natron_crystals>, [<alchemistry:mineral_salt>,<minecraft:dye:15>]);
+recipes.addShapeless(<vanillafoodpantry:rock_salt_crystals>, [<alchemistry:mineral_salt>,<soulus:bone_meal_nether>]);
 
 furnace.remove(<vanillafoodpantry:molasses_ball>*2);
 furnace.remove(<vanillafoodpantry:molasses_ball>*18);

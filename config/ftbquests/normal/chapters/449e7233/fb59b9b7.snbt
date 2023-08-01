@@ -1,7 +1,7 @@
 {
 	title: "Mysterious Dust?",
 	icon: "hwell:myst_dust",
-	x: 10.0d,
+	x: 11.0d,
 	y: -2.0d,
 	text: [
 		"Hold right-click while wielding an empty rod to insert some of your soul into it..."

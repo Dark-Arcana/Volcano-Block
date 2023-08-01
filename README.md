@@ -13,5 +13,5 @@
 You're dropped into the heart of a volcano with nothing but a knife. How will you make your escape?
 
 Volcano Block is a lightweight questing/progression modpack with a unique progression driven by a number of interesting, and under-appreciated mods.
-Coming in at about 100 mods, this pack loads quick and performs well on potato computers, but still remains a unique hand-crafted and engaging experience that can provide dozens of hours of fun.
+Coming in at about 150 mods, this pack loads quick and performs well on potato computers, but still remains a unique hand-crafted and engaging experience that can provide dozens of hours of fun.
 Come hang out on [Official Discord](https://discord.gg/QVbzp5J) to chat about the pack.

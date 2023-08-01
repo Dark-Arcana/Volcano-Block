@@ -1,0 +1,15 @@
+{
+	x: 10.0d,
+	y: -4.5d,
+	text: [
+		"Plant 5 of them in a \"+\" shape. Once they're fully grown, use heavy shears to harvest them."
+	],
+	dependencies: [
+		"c57544b7"
+	],
+	tasks: [{
+		uid: "fb3c3c62",
+		type: "checkmark",
+		title: "My seeds won't grow!"
+	}]
+}

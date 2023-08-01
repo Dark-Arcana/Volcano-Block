@@ -22,9 +22,7 @@
 					FoodTotal: 22,
 					FoodPortion: 5,
 					FoodSaturation: 0.67272735f,
-					UiTip: "Cheesy Batty Burger!
-Egg-Stuffed Roll
-SPaM an' Egg Sandwich"
+					UiTip: "Cheesy Batty Burger!Egg-Stuffed RollSPaM an' Egg Sandwich"
 				},
 				SAMPLE: 1b
 			}

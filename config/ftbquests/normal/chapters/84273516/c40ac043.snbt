@@ -12,7 +12,7 @@
 		items: [{
 			item: "alchemistry:fusion_casing"
 		}],
-		count: 98L
+		count: 104L
 	},
 	{
 		uid: "363bb8e8",

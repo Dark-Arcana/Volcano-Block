@@ -35,9 +35,9 @@ ManaInfusion.removeRecipe(<botania:manaresource:1>);
 ManaInfusion.addInfusion(<botania:manaresource:1>, <forbidden_arcanus:chorus_pearl>, 7500); //default 10k
 
 ManaInfusion.removeRecipe(<botania:storage>);
-ManaInfusion.addInfusion(<botania:storage>, <hwell:mystic_iron_block>, 27000); //default 27k
+ManaInfusion.addInfusion(<botania:storage>, <hwell:soulsteel_block>, 27000); //default 27k
 
 ManaInfusion.removeRecipe(<botania:storage:3>);
 ManaInfusion.addInfusion(<botania:storage:3>, <calculator:material:8>, 108000);
 
-ManaInfusion.addInfusion(<minecraft:vine>,<vanillafoodpantry:dried_seeds>,200);
+ManaInfusion.addInfusion(<minecraft:vine>, <vanillafoodpantry:dried_seeds>, 200);

@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	text: [
+		"Obtain some vines by growing a large jungle tree."
+	],
+	dependencies: [
+		"664b163e"
+	],
+	tasks: [{
+		uid: "e92a694c",
+		type: "item",
+		items: [{
+			item: "minecraft:vine"
+		}]
+	}]
+}

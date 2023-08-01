@@ -35,6 +35,9 @@ var mapSaw as IItemStack[IItemStack] = {
     <minecraft:log2:1> : <minecraft:planks:5>,
     <minecraft:log2> : <minecraft:planks:4>,
     <prodigytech:zorra_log> : <prodigytech:zorra_planks>,
+    <forbidden_arcanus:edelwood_log> : <forbidden_arcanus:edelwood_planks>,
+    <forbidden_arcanus:cherrywood_log> : <forbidden_arcanus:cherrywood_planks>,
+    <forbidden_arcanus:mysterywood_log> : <forbidden_arcanus:mysterywood_planks>,
 };
 
 for input, output in mapSaw {

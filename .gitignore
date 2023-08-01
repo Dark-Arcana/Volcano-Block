@@ -29,5 +29,6 @@ manifest.json
 *.log
 *.old
 *.csv
+*.mca
 worldSettings.cfg
 hei_bookmarks.ini

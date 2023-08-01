@@ -18,6 +18,10 @@ import scripts.functions.getBucket;
 import scripts.functions.getBucketDefault;
 import scripts.functions.findFirstItemFromMod;
 
+import scripts.functions.disable;
+
+disable(<inspirations:collector>);
+
 recipes.remove(<inspirations:pipe>);
 recipes.addShaped(<inspirations:pipe> * 4, [
     [<ore:stone>,<ore:plankWood>,<ore:stone>],

@@ -1,0 +1,22 @@
+{
+    "orechid_overworld": {
+        "manaCost": 4000,
+        "cooldown": 40,
+        "particleColor": "818181"
+    },
+    "orechid_nether": {
+        "manaCost": 6000,
+        "cooldown": 60,
+        "particleColor": "900000"
+    },
+    "orechid_end": {
+        "manaCost": 8000,
+        "cooldown": 80,
+        "particleColor": "FFEB88"
+    },
+    "orechid_atum": {
+        "manaCost": 6000,
+        "cooldown": 60,
+        "particleColor": "FFBB66"
+    }
+}

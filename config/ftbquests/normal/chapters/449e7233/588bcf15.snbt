@@ -1,6 +1,6 @@
 {
 	title: "Magical clay",
-	x: 12.0d,
+	x: 13.0d,
 	y: -2.0d,
 	dependencies: [
 		"46ec9856"
