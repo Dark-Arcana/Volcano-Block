@@ -1,5 +1,63 @@
 =-= Changelog =-=
 
+v1.1.10 - 2024-08-12
+===
+
+Added Mods:
+- Alfheim Lighting Engine
+- Embers Unofficial Extended Life
+- Embersified Extended
+- EmberRootZoo ROTN
+- Fixeroo
+- Forced Resourcepacks
+- Modern Splash
+- Patchouli ROFL Edition
+- Red Core
+- The One Probe Community Edition
+- Valkyrie
+- VintageFix
+- World Primer
+
+Updated Mods:
+- CensoredASM
+- ConfigAnytime
+- Controlling
+- Corail Tombstone
+- CraftTweaker
+- Dropt
+- Earthworks Unofficial Extended Life
+- Had Enough Items
+- Inventory Bogo Sorter
+- JourneyMap
+- MixinBooter
+- ModularUI
+- Multiblocked
+- SerializationIsBad
+- Simple Sponge
+- Sledgehammer
+- Storage Drawers
+- Universal Tweaks
+
+Removed Mods:
+- Better FPS
+- Clumps (replaced by Fixeroo)
+- Embers Rekindled (replaced by Embers Unofficial Extended Life)
+- Embersified (replaced by Embersified Extended)
+- EmberRoot Zoo (replaced by EmberRootZoo ROTN)
+- FoamFix (replaced by VintageFix)
+- FogTweaker
+- Global Game Rules
+- Hesperus (replaced by Alfheim Lighting Engine)
+- Patchouli
+- RandomPatches
+- Startup Timer (replaced by Modern Splash)
+- The One Probe (replaced by The One Probe Community Edition)
+
+Changes/Bugfixes:
+- enabled daylight cycle for real this time
+- added better Unique Crops Crafting texture
+- improved Multiblocked textures
+
 v1.1.9 - 2023-08-02
 ===
 

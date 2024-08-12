@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "location": "volcanoblock:soul_charger",
   "traits": {
     "background": "multiblocked:textures/gray_two_slot_gui.png",
@@ -7,15 +7,17 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 52,
-        "y": 114,
+        "y": 81,
         "autoIO": false
       },
       {
         "cIO": 1,
         "gIO": 1,
+        "mIO": 1,
         "x": 106,
-        "y": 114,
+        "y": 81,
         "autoIO": false
       }
     ]
