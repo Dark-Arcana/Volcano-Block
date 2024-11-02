@@ -1,0 +1,6 @@
+
+{
+  "Name": "withercat",
+  "Registry ID": "emberroot:withercat",
+  "Class": "teamroots.emberroot.entity.cat.EntityWitherCat"
+}

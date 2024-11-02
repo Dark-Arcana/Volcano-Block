@@ -1,0 +1,6 @@
+
+{
+  "Name": "hero",
+  "Registry ID": "emberroot:hero",
+  "Class": "teamroots.emberroot.entity.hero.EntityFallenHero"
+}

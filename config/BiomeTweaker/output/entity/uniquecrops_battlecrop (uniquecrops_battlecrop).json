@@ -1,0 +1,6 @@
+
+{
+  "Name": "uniquecrops:battlecrop",
+  "Registry ID": "uniquecrops:battlecrop",
+  "Class": "com.bafomdad.uniquecrops.entities.EntityBattleCrop"
+}

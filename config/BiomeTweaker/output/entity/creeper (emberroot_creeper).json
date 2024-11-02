@@ -1,0 +1,6 @@
+
+{
+  "Name": "creeper",
+  "Registry ID": "emberroot:creeper",
+  "Class": "teamroots.emberroot.entity.creeper.EntityConcussionCreeper"
+}

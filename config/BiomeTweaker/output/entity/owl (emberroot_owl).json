@@ -1,0 +1,6 @@
+
+{
+  "Name": "owl",
+  "Registry ID": "emberroot:owl",
+  "Class": "teamroots.emberroot.entity.owl.EntityOwl"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "rootsonespriteprojectile",
+  "Registry ID": "emberroot:rootsonespriteprojectile",
+  "Class": "teamroots.emberroot.entity.spritegreater.EntitySpriteProjectile"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "slime",
+  "Registry ID": "emberroot:slime",
+  "Class": "teamroots.emberroot.entity.slimedirt.EntityDireSlime"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "wendigo_villager",
+  "Registry ID": "cannibalism:wendigo_villager",
+  "Class": "sorazodia.cannibalism.mob.EntityTurnedVillager"
+}

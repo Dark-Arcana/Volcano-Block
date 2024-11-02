@@ -1,0 +1,6 @@
+
+{
+  "Name": "skeleton_frozen",
+  "Registry ID": "emberroot:skeleton_frozen",
+  "Class": "teamroots.emberroot.entity.frozen.EntityFrozenKnight"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "sprouts",
+  "Registry ID": "emberroot:sprouts",
+  "Class": "teamroots.emberroot.entity.sprout.EntitySprout"
+}

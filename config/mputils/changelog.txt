@@ -1,5 +1,38 @@
 =-= Changelog =-=
 
+v1.1.11 - 2024-11-02
+===
+
+Added Mods:
+- BiomeTweaker
+- BiomeTweakerCore
+- Flare
+- JEI Area Fixer
+- MiniEffects-Legacy Extendend Life
+- Soot Unofficial Extended Life
+- Sound Physics Remixin
+- StellarCore
+
+Updated Mods:
+- Alfheim Lighting Engine
+- Corail Tombstone
+- Embers Unofficial Extended Life
+- Fixeroo
+- Had Enough Items
+- Inventory Bogo Sorter
+- MixinBooter
+- Storage Drawers
+- The One Probe Community Edition
+- Universal Tweaks
+
+Removed Mods:
+- spark
+
+Changes/Bugfixes:
+- added back the red sky
+- enabled the botania skybox, because why not :3
+- fixed all issues with the daylight cycle
+
 v1.1.10 - 2024-08-12
 ===
 

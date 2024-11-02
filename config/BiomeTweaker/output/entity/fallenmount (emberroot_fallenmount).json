@@ -1,0 +1,6 @@
+
+{
+  "Name": "fallenmount",
+  "Registry ID": "emberroot:fallenmount",
+  "Class": "teamroots.emberroot.entity.mount.EntityFallenMount"
+}
